@@ -1,0 +1,33 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lumidep:anglerfish",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/anglerphishtexture"
+			},
+			"geometry": {
+				"default": "geometry.anglerfish"
+			},
+			"animations": {
+				"idle": "animation.angler.idle"
+			},
+			"scripts": {
+				"animate": [
+					"idle"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#110727",
+				"overlay_color": "#ADAD87"
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:fog_settings": {
+		"description": {
+			"identifier": "lumidep:volcanic_reef"
+		},
+		"distance": {
+			"air": {
+				"fog_start": 10,
+				"fog_end": 96,
+				"fog_color": "#0E1C25",
+				"render_distance_type": "render"
+			},
+			"water": {
+				"fog_start": 0,
+				"fog_end": 15,
+				"fog_color": "#121622",
+				"render_distance_type": "fixed"
+			},
+			"weather": {
+				"fog_start": 10,
+				"fog_end": 96,
+				"fog_color": "#090C1F",
+				"render_distance_type": "render"
+			}
+		}
+	}
+}

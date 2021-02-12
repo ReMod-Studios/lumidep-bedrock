@@ -1,2 +1,18 @@
-pack.name=Luminous Depths [Res.]
+##bridge-file-version: #7
+pack.name=Luminous Depths §1[Res.]
 pack.description=A Project that brings in a whole new level of depth to Minecraft's oceans, (pun intended), from creatures such as anglerfish to giant isopods, new blocks, and strange structures.
+
+
+## ENTITIES
+entity.lumidep:goblin_shark.name=Goblin Shark
+entity.lumidep:mantaray.name=Mantaray
+entity.lumidep:anglerfish.name=Anglerfish
+entity.lumidep:isopod.name=Isopod
+entity.lumidep:gorgebeast.name=Gorgebeast
+
+## ENTITIES-EGGS
+item.spawn_egg.entity.lumidep:goblin_shark.name=Spawn Goblin shark
+item.spawn_egg.entity.lumidep:mantaray.name=Spawn Mantaray
+item.spawn_egg.entity.lumidep:anglerfish.name=Spawn Anglerfish
+item.spawn_egg.entity.lumidep:isopod.name=Spawn Isopod
+item.spawn_egg.entity.lumidep:gorgebeast.name=Spawn Gorgebeast

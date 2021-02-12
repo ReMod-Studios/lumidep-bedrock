@@ -1,0 +1,339 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\entity\\mantaray.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "1b32924d_c342_4d0d_b140_7e0d8b9e927e",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lumidep:mantaray",
+							"materials": {
+								"default": "entity_static"
+							},
+							"textures": {
+								"default": "textures/entity/mantaraytexture"
+							},
+							"geometry": {
+								"default": "geometry.mantaray"
+							},
+							"animations": {
+								"flap": "animation.mantaray.flap"
+							},
+							"scripts": {
+								"animate": [
+									"flap"
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"base_color": "#07001B",
+								"overlay_color": "#D6AFFF"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:mantaray",
+								"materials": {
+									"default": "entity_static"
+								},
+								"textures": {
+									"default": "textures/entity/mantaraytexture"
+								},
+								"geometry": {
+									"default": "geometry.mantaray"
+								},
+								"animations": {
+									"flap": "animation.mantaray.flap"
+								},
+								"scripts": {
+									"animate": [
+										"flap"
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"base_color": "#07001B",
+									"overlay_color": "#D6AFFF"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "lumidep:mantaray",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_static"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/mantaraytexture"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.mantaray"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"flap": "animation.mantaray.flap"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"flap"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"flap"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:mantaray",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/mantaraytexture"
+									},
+									"geometry": {
+										"default": "geometry.mantaray"
+									},
+									"animations": {
+										"flap": "animation.mantaray.flap"
+									},
+									"scripts": {
+										"animate": [
+											"flap"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#07001B",
+										"overlay_color": "#D6AFFF"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#07001B",
+									"overlay_color": "#D6AFFF"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

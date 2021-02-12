@@ -1,0 +1,186 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\render_controllers\\turtle.render_controllers.json",
+	"file_type": "render_controller",
+	"format_version": 1,
+	"file_uuid": "c914b048_9f55_4b0f_a8cc_648232960615",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"render_controllers": {
+						"controller.render.turtle": {
+							"geometry": "Geometry.default",
+							"materials": [
+								{
+									"*": "Material.default"
+								}
+							],
+							"textures": [
+								"Array.skins[query.variant]"
+							],
+							"arrays": {
+								"textures": {
+									"Array.skins": [
+										"Texture.default",
+										"Texture.blue"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "render_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.render.turtle": {
+								"geometry": "Geometry.default",
+								"materials": [
+									{
+										"*": "Material.default"
+									}
+								],
+								"textures": [
+									"Array.skins[query.variant]"
+								],
+								"arrays": {
+									"textures": {
+										"Array.skins": [
+											"Texture.default",
+											"Texture.blue"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.render.turtle",
+						"children": [
+							{
+								"data": "Geometry.default",
+								"key": "geometry"
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.default",
+												"Texture.blue"
+											]
+										}
+									}
+								},
+								"key": "materials",
+								"children": [
+									{
+										"open": [
+											{
+												"*": "Material.default"
+											}
+										],
+										"is_minified": true,
+										"children": {
+											"*": "Material.default"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.default",
+												"Texture.blue"
+											]
+										}
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"Array.skins[query.variant]"
+								]
+							},
+							{
+								"open": {
+									"geometry": "Geometry.default",
+									"materials": [
+										{
+											"*": "Material.default"
+										}
+									],
+									"textures": [
+										"Array.skins[query.variant]"
+									],
+									"arrays": {
+										"textures": {
+											"Array.skins": [
+												"Texture.default",
+												"Texture.blue"
+											]
+										}
+									}
+								},
+								"key": "arrays",
+								"children": [
+									{
+										"open": {
+											"textures": {
+												"Array.skins": [
+													"Texture.default",
+													"Texture.blue"
+												]
+											}
+										},
+										"key": "textures",
+										"children": [
+											{
+												"open": {
+													"Array.skins": [
+														"Texture.default",
+														"Texture.blue"
+													]
+												},
+												"key": "Array.skins",
+												"is_minified": true,
+												"children": [
+													"Texture.default",
+													"Texture.blue"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,295 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\recipes\\diving_helmet.json",
+	"file_type": "recipe",
+	"format_version": 1,
+	"file_uuid": "0110c5f9_f49c_4f61_8289_519308efbbbb",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:recipe_shaped": {
+						"description": {
+							"identifier": "lumidep:diving_helmet"
+						},
+						"tags": [
+							"crafting_table"
+						],
+						"pattern": [
+							"GEG",
+							"GPG",
+							"GEG"
+						],
+						"key": {
+							"G": {
+								"item": "minecraft:gold_ingot"
+							},
+							"E": {
+								"item": "lumidep:esca"
+							},
+							"P": {
+								"item": "minecraft:glass_pane"
+							}
+						},
+						"result": [
+							{
+								"item": "lumidep:diving_helmet"
+							}
+						]
+					}
+				},
+				"key": "minecraft:recipe_shaped",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:diving_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"GEG",
+								"GPG",
+								"GEG"
+							],
+							"key": {
+								"G": {
+									"item": "minecraft:gold_ingot"
+								},
+								"E": {
+									"item": "lumidep:esca"
+								},
+								"P": {
+									"item": "minecraft:glass_pane"
+								}
+							},
+							"result": [
+								{
+									"item": "lumidep:diving_helmet"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lumidep:diving_helmet"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:diving_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"GEG",
+								"GPG",
+								"GEG"
+							],
+							"key": {
+								"G": {
+									"item": "minecraft:gold_ingot"
+								},
+								"E": {
+									"item": "lumidep:esca"
+								},
+								"P": {
+									"item": "minecraft:glass_pane"
+								}
+							},
+							"result": [
+								{
+									"item": "lumidep:diving_helmet"
+								}
+							]
+						},
+						"key": "tags",
+						"is_minified": true,
+						"children": [
+							"crafting_table"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:diving_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"GEG",
+								"GPG",
+								"GEG"
+							],
+							"key": {
+								"G": {
+									"item": "minecraft:gold_ingot"
+								},
+								"E": {
+									"item": "lumidep:esca"
+								},
+								"P": {
+									"item": "minecraft:glass_pane"
+								}
+							},
+							"result": [
+								{
+									"item": "lumidep:diving_helmet"
+								}
+							]
+						},
+						"key": "pattern",
+						"is_minified": true,
+						"children": [
+							"GEG",
+							"GPG",
+							"GEG"
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:diving_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"GEG",
+								"GPG",
+								"GEG"
+							],
+							"key": {
+								"G": {
+									"item": "minecraft:gold_ingot"
+								},
+								"E": {
+									"item": "lumidep:esca"
+								},
+								"P": {
+									"item": "minecraft:glass_pane"
+								}
+							},
+							"result": [
+								{
+									"item": "lumidep:diving_helmet"
+								}
+							]
+						},
+						"key": "key",
+						"children": [
+							{
+								"open": {
+									"G": {
+										"item": "minecraft:gold_ingot"
+									},
+									"E": {
+										"item": "lumidep:esca"
+									},
+									"P": {
+										"item": "minecraft:glass_pane"
+									}
+								},
+								"key": "G",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:gold_ingot"
+								}
+							},
+							{
+								"open": {
+									"G": {
+										"item": "minecraft:gold_ingot"
+									},
+									"E": {
+										"item": "lumidep:esca"
+									},
+									"P": {
+										"item": "minecraft:glass_pane"
+									}
+								},
+								"key": "E",
+								"is_minified": true,
+								"children": {
+									"item": "lumidep:esca"
+								}
+							},
+							{
+								"open": {
+									"G": {
+										"item": "minecraft:gold_ingot"
+									},
+									"E": {
+										"item": "lumidep:esca"
+									},
+									"P": {
+										"item": "minecraft:glass_pane"
+									}
+								},
+								"key": "P",
+								"is_minified": true,
+								"children": {
+									"item": "minecraft:glass_pane"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:diving_helmet"
+							},
+							"tags": [
+								"crafting_table"
+							],
+							"pattern": [
+								"GEG",
+								"GPG",
+								"GEG"
+							],
+							"key": {
+								"G": {
+									"item": "minecraft:gold_ingot"
+								},
+								"E": {
+									"item": "lumidep:esca"
+								},
+								"P": {
+									"item": "minecraft:glass_pane"
+								}
+							},
+							"result": [
+								{
+									"item": "lumidep:diving_helmet"
+								}
+							]
+						},
+						"key": "result",
+						"children": [
+							{
+								"open": [
+									{
+										"item": "lumidep:diving_helmet"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"item": "lumidep:diving_helmet"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

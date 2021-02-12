@@ -1,0 +1,145 @@
+{
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"ef5ad77f_6fb8_4c4a_beff_ddc8042ba7ba": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b571a2a5_ef79_4920_aef8_f95478d136c5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"4a03e1e3_df32_4e71_80c9_8e63f2473815": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"341a8d68_369b_4340_b040_7c070ce24351": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/diving_helmet.json": {
+		"data": {}
+	},
+	"RP/attachables/diving_helmet.json": {
+		"data": {}
+	},
+	"RP/attachables/diving_helmet.player.json": {
+		"data": {}
+	},
+	"BP/biomes/deep_volcanic_reef.biome.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"RP/biomes_client.json": {
+		"data": {}
+	},
+	"RP/entity/goblin_shark.json": {
+		"data": {}
+	},
+	"BP/entities/turtle.json": {
+		"data": {}
+	},
+	"RP/entity/turtle.entity.json": {
+		"data": {}
+	},
+	"RP/render_controllers/turtle.render_controllers.json": {
+		"data": {}
+	},
+	"RP/fogs/volcanic_reef.json": {
+		"data": {}
+	},
+	"RP/render_controllers/goblin_shark.json": {
+		"data": {}
+	},
+	"BP/entities/goblin_shark.json": {
+		"data": {}
+	},
+	"BP/entities/mantaray.json": {
+		"data": {}
+	},
+	"RP/entity/mantaray.json": {
+		"data": {}
+	},
+	"RP/animations/mantaray.animation.json": {
+		"data": {}
+	},
+	"BP/entities/anglerfish.json": {
+		"data": {}
+	},
+	"RP/entity/anglerfish.json": {
+		"data": {}
+	},
+	"BP/items/esca.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/anglerfish.json": {
+		"data": {}
+	},
+	"BP/items/carapace.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/isopod.json": {
+		"data": {}
+	},
+	"BP/recipes/diving_helmet.json": {
+		"data": {}
+	},
+	"BP/entities/isopod.json": {
+		"data": {}
+	},
+	"RP/entity/isopod.json": {
+		"data": {}
+	},
+	"RP/animations/isopod.animation.json": {
+		"data": {}
+	},
+	"RP/animations/gorgebeast.animation.json": {
+		"data": {}
+	},
+	"BP/entities/gorgebeast.json": {
+		"data": {}
+	},
+	"RP/render_controllers/gorgebeast.render_controllers.json": {
+		"data": {}
+	},
+	"RP/entity/gorgebeast.json": {
+		"data": {}
+	},
+	"BP/items/gorge_cords.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/gorgebeast.json": {
+		"data": {}
+	}
+}

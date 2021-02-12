@@ -1,0 +1,34 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\attachables\\diving_helmet_helmet.player.json",
+	"file_type": "attachable",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.10.0",
+		"minecraft:attachable": {
+			"description": {
+				"identifier": "lumidep:diving_helmet_helmet.player",
+				"item": {
+					"lumidep:diving_helmet_helmet": "query.owner_identifier == 'minecraft:player'"
+				},
+				"materials": {
+					"default": "armor",
+					"enchanted": "armor_enchanted"
+				},
+				"textures": {
+					"default": "textures/models/armor/diving_helmet_1",
+					"enchanted": "textures/misc/enchanted_item_glint"
+				},
+				"geometry": {
+					"default": "geometry.player.armor.helmet"
+				},
+				"scripts": {
+					"parent_setup": "variable.helmet_layer_visible = 0.0;"
+				},
+				"render_controllers": [
+					"controller.render.armor"
+				]
+			}
+		}
+	},
+	"file_uuid": "423269db_93a2_49ae_ab82_25a5e333a331"
+}

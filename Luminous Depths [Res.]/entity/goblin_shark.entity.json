@@ -1,0 +1,34 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lumidep:goblin_shark",
+			"materials": {
+				"default": "dolphin"
+			},
+			"textures": {
+				"default": "textures/entity/goblin_shark",
+				"white": "textures/entity/goblin_shark_white"
+			},
+			"geometry": {
+				"default": "geometry.goblin_shark"
+			},
+			"animations": {
+				"move": "animation.goblin_shark.move"
+			},
+			"scripts": {
+				"animate": [
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.goblin_shark"
+			],
+			"spawn_egg": {
+				"base_color": "#723F66",
+				"overlay_color": "#C3C3C3"
+			}
+		}
+	}
+}

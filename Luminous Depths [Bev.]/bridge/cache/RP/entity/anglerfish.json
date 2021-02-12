@@ -1,0 +1,339 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\entity\\anglerfish.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "6a478bc2_98e8_4fde_a9f7_9939616bd33c",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lumidep:anglerfish",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/entity/anglerphishtexture"
+							},
+							"geometry": {
+								"default": "geometry.anglerfish"
+							},
+							"animations": {
+								"idle": "animation.angler.idle"
+							},
+							"scripts": {
+								"animate": [
+									"idle"
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"base_color": "#110727",
+								"overlay_color": "#ADAD87"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:anglerfish",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/entity/anglerphishtexture"
+								},
+								"geometry": {
+									"default": "geometry.anglerfish"
+								},
+								"animations": {
+									"idle": "animation.angler.idle"
+								},
+								"scripts": {
+									"animate": [
+										"idle"
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"base_color": "#110727",
+									"overlay_color": "#ADAD87"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "lumidep:anglerfish",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/anglerphishtexture"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.anglerfish"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"idle": "animation.angler.idle"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"idle"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"idle"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:anglerfish",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/anglerphishtexture"
+									},
+									"geometry": {
+										"default": "geometry.anglerfish"
+									},
+									"animations": {
+										"idle": "animation.angler.idle"
+									},
+									"scripts": {
+										"animate": [
+											"idle"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#110727",
+										"overlay_color": "#ADAD87"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#110727",
+									"overlay_color": "#ADAD87"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

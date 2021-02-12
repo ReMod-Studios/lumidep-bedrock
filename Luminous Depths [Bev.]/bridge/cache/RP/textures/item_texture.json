@@ -1,0 +1,206 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "3e10c295_8430_4eca_bf33_a6c2b142c19a",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"diving_helmet": {
+							"textures": [
+								"textures/items/diving_helmet"
+							]
+						},
+						"esca": {
+							"textures": [
+								"textures/items/esca"
+							]
+						},
+						"carapace": {
+							"textures": [
+								"textures/items/carapace"
+							]
+						},
+						"gorge_cords": {
+							"textures": [
+								"textures/items/cords_gorge"
+							]
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							}
+						},
+						"key": "diving_helmet",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/diving_helmet"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/diving_helmet"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							}
+						},
+						"key": "esca",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/esca"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/esca"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							}
+						},
+						"key": "carapace",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/carapace"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/carapace"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							}
+						},
+						"key": "gorge_cords",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/cords_gorge"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/cords_gorge"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

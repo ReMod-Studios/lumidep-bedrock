@@ -1,10 +1,16 @@
+//bridge-file-version: #1
 {
-  "biomes": {
-    "default": {
-      "water_surface_color": "#44AFF5",
-      "water_surface_transparency": 0.65,
-      "water_fog_color": "#44AFF5",
-      "water_fog_distance": 15
-    }
-  }
+	"biomes": {
+		"default": {
+			"water_surface_color": "#44AFF5",
+			"water_surface_transparency": 0.65,
+			"water_fog_color": "#44AFF5",
+			"water_fog_distance": 15
+		},
+		"deep_volcanic_reef": {
+			"water_surface_color": "#0B1A29",
+			"water_surface_transparency": 0,
+			"fog_identifier": "lumidep:volcanic_reef"
+		}
+	}
 }

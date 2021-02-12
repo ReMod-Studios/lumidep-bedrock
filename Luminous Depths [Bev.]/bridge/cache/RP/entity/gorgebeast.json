@@ -1,0 +1,435 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\entity\\gorgebeast.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "f613cb53_4136_4fe8_a295_5f3edf2bfa09",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lumidep:gorgebeast",
+							"materials": {
+								"default": "enderman",
+								"invisible": "enderman_invisible"
+							},
+							"textures": {
+								"default": "textures/entity/gorgebeast"
+							},
+							"geometry": {
+								"default": "geometry.gorgebeast"
+							},
+							"animations": {
+								"idle": "animation.gorgebeast.swim",
+								"attack": "animation.gorgebeast.suck"
+							},
+							"scripts": {
+								"animate": [
+									{
+										"idle": "query.modified_move_speed"
+									},
+									{
+										"attack": "variable.is_attacking > 0.1"
+									}
+								]
+							},
+							"render_controllers": [
+								"controller.render.gorgebeast"
+							],
+							"spawn_egg": {
+								"base_color": "#132721",
+								"overlay_color": "#60CAA3"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:gorgebeast",
+								"materials": {
+									"default": "enderman",
+									"invisible": "enderman_invisible"
+								},
+								"textures": {
+									"default": "textures/entity/gorgebeast"
+								},
+								"geometry": {
+									"default": "geometry.gorgebeast"
+								},
+								"animations": {
+									"idle": "animation.gorgebeast.swim",
+									"attack": "animation.gorgebeast.suck"
+								},
+								"scripts": {
+									"animate": [
+										{
+											"idle": "query.modified_move_speed"
+										},
+										{
+											"attack": "variable.is_attacking > 0.1"
+										}
+									]
+								},
+								"render_controllers": [
+									"controller.render.gorgebeast"
+								],
+								"spawn_egg": {
+									"base_color": "#132721",
+									"overlay_color": "#60CAA3"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "lumidep:gorgebeast",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "enderman",
+									"invisible": "enderman_invisible"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/gorgebeast"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.gorgebeast"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"idle": "animation.gorgebeast.swim",
+									"attack": "animation.gorgebeast.suck"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												{
+													"idle": "query.modified_move_speed"
+												},
+												{
+													"attack": "variable.is_attacking > 0.1"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"idle": "query.modified_move_speed"
+													},
+													{
+														"attack": "variable.is_attacking > 0.1"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"idle": "query.modified_move_speed"
+												}
+											},
+											{
+												"open": [
+													{
+														"idle": "query.modified_move_speed"
+													},
+													{
+														"attack": "variable.is_attacking > 0.1"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"attack": "variable.is_attacking > 0.1"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.gorgebeast"
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:gorgebeast",
+									"materials": {
+										"default": "enderman",
+										"invisible": "enderman_invisible"
+									},
+									"textures": {
+										"default": "textures/entity/gorgebeast"
+									},
+									"geometry": {
+										"default": "geometry.gorgebeast"
+									},
+									"animations": {
+										"idle": "animation.gorgebeast.swim",
+										"attack": "animation.gorgebeast.suck"
+									},
+									"scripts": {
+										"animate": [
+											{
+												"idle": "query.modified_move_speed"
+											},
+											{
+												"attack": "variable.is_attacking > 0.1"
+											}
+										]
+									},
+									"render_controllers": [
+										"controller.render.gorgebeast"
+									],
+									"spawn_egg": {
+										"base_color": "#132721",
+										"overlay_color": "#60CAA3"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#132721",
+									"overlay_color": "#60CAA3"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

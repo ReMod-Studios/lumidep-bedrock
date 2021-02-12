@@ -1,0 +1,45 @@
+//bridge-file-version: #6
+{
+	"format_version": "1.13.0",
+	"minecraft:biome": {
+		"description": {
+			"identifier": "deep_volcanic_reef"
+		},
+		"components": {
+			"minecraft:climate": {
+				"downfall": 0.5,
+				"snow_accumulation": [
+					0,
+					0.125
+				],
+				"temperature": 0.5,
+				"blue_spores": 0.3,
+				"ash": 0.6
+			},
+			"minecraft:overworld_height": {
+				"noise_type": "deep_ocean"
+			},
+			"minecraft:surface_parameters": {
+				"sea_floor_depth": 12,
+				"sea_floor_material": "minecraft:cobblestone",
+				"foundation_material": "minecraft:water",
+				"mid_material": "minecraft:water",
+				"top_material": "minecraft:water",
+				"sea_material": "minecraft:water"
+			},
+			"minecraft:overworld_generation_rules": {
+				"generate_for_climates": [
+					[
+						"lukewarm",
+						1
+					]
+				]
+			},
+			"deep": {},
+			"volcanic_reef": {},
+			"monster": {},
+			"deep_ocean": {},
+			"overworld": {}
+		}
+	}
+}

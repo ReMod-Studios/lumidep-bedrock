@@ -1,0 +1,51 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\animations\\goblin_shark.json",
+	"file_type": "rp_animation",
+	"format_version": 0,
+	"cache_content": {
+		"format_version": "1.8.0",
+		"animations": {
+			"animation.goblin_shark.move": {
+				"loop": true,
+				"bones": {
+					"body": {
+						"rotation": [
+							"query.target_x_rotation - 2.865 + (-2.865 * math.cos(query.life_time * 343.8))",
+							"query.target_y_rotation",
+							0
+						]
+					},
+					"left_fin": {
+						"rotation": [
+							0,
+							0,
+							"17.19 * math.cos(query.life_time * 229.2) + 22.92"
+						]
+					},
+					"right_fin": {
+						"rotation": [
+							0,
+							0,
+							"-17.19 * math.cos(query.life_time * 229.2) - 22.92"
+						]
+					},
+					"tail": {
+						"rotation": [
+							"-5.73 * math.cos(query.life_time * 343.8)",
+							0,
+							0
+						]
+					},
+					"tail_fin": {
+						"rotation": [
+							"-11.46 * math.cos(query.life_time * 343.8)",
+							0,
+							0
+						]
+					}
+				}
+			}
+		}
+	},
+	"file_uuid": "9a08d95f_0c0a_489e_b492_4cd7583930e9"
+}

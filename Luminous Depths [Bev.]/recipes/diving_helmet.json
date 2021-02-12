@@ -1,0 +1,33 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "lumidep:diving_helmet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"GEG",
+			"GPG",
+			"GEG"
+		],
+		"key": {
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"E": {
+				"item": "lumidep:esca"
+			},
+			"P": {
+				"item": "minecraft:glass_pane"
+			}
+		},
+		"result": [
+			{
+				"item": "lumidep:diving_helmet"
+			}
+		]
+	}
+}

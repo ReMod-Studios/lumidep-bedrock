@@ -1,0 +1,394 @@
+{
+	"attachable": {
+		"RP/attachables/diving_helmet_leggings.player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/diving_helmet.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		},
+		"RP/attachables/diving_helmet.player.json": {
+			"texture_references": [
+				"default",
+				"enchanted"
+			],
+			"material_references": [
+				"default",
+				"enchanted"
+			],
+			"geometry_references": [
+				"default"
+			]
+		}
+	},
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger",
+				"lumidep:helmet_on",
+				"lumidep:helmet_off"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/turtle.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:become_pregnant",
+				"minecraft:go_lay_egg",
+				"minecraft:laid_egg",
+				"lumidep:blue"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:turtle"
+			],
+			"animation_references": [],
+			"families": [
+				"turtle",
+				"baby_turtle",
+				"mob",
+				"turtle",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/goblin_shark.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:ageable_grow_up",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"minecraft:stop_dryingout",
+				"minecraft:start_dryingout",
+				"minecraft:dried_out",
+				"minecraft:navigation_on_land",
+				"minecraft:navigation_off_land"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lumidep:goblin_shark"
+			],
+			"animation_references": [],
+			"families": [
+				"goblin_shark",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/mantaray.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lumidep:mantaray"
+			],
+			"animation_references": [],
+			"families": [
+				"salmon",
+				"fish"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/anglerfish.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lumidep:anglerfish"
+			],
+			"animation_references": [],
+			"families": [
+				"salmon",
+				"fish"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/isopod.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lumidep:isopod"
+			],
+			"animation_references": [],
+			"families": [
+				"isopod",
+				"arthropod"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/gorgebeast.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lumidep:gorgebeast"
+			],
+			"animation_references": [],
+			"families": [
+				"gorgebeast",
+				"leviathen"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/diving_helmet.json": {
+			"identifiers": [
+				"lumidep:diving_helmet"
+			],
+			"custom_commands": []
+		},
+		"BP/items/esca.json": {
+			"identifiers": [
+				"lumidep:esca"
+			],
+			"custom_commands": []
+		},
+		"BP/items/carapace.json": {
+			"identifiers": [
+				"lumidep:carapace"
+			],
+			"custom_commands": []
+		},
+		"BP/items/gorge_cords.json": {
+			"identifiers": [
+				"lumidep:gorge_cords"
+			],
+			"custom_commands": []
+		}
+	},
+	"biome": {
+		"BP/biomes/deep_volcanic_reef.biome.json": {
+			"tags": [
+				"volcanic_reef",
+				"deep_ocean"
+			]
+		}
+	},
+	"client_entity": {
+		"RP/entity/goblin_shark.json": {
+			"identifiers": [
+				"lumidep:goblin_shark"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"white"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/turtle.entity.json": {
+			"identifiers": [
+				"minecraft:turtle"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"general",
+				"move",
+				"ground_move",
+				"look_at_target"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default",
+				"blue"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/mantaray.json": {
+			"identifiers": [
+				"lumidep:mantaray"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flap"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/anglerfish.json": {
+			"identifiers": [
+				"lumidep:anglerfish"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"idle"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/isopod.json": {
+			"identifiers": [
+				"lumidep:isopod"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"idle"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/gorgebeast.json": {
+			"identifiers": [
+				"lumidep:gorgebeast"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"idle",
+				"attack"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default",
+				"invisible"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/turtle.render_controllers.json": {
+			"ids": [
+				"controller.render.turtle"
+			]
+		},
+		"RP/render_controllers/goblin_shark.json": {
+			"ids": [
+				"controller.render.goblin_shark"
+			]
+		},
+		"RP/render_controllers/gorgebeast.render_controllers.json": {
+			"ids": [
+				"controller.render.gorgebeast"
+			]
+		}
+	},
+	"fog": {
+		"RP/fogs/volcanic_reef.json": {
+			"identifiers": [
+				"lumidep:volcanic_reef"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/animations/mantaray.animation.json": {
+			"ids": [
+				"animation.mantaray.flap"
+			]
+		},
+		"RP/animations/isopod.animation.json": {
+			"ids": [
+				"animation.isopod.idle"
+			]
+		},
+		"RP/animations/gorgebeast.animation.json": {
+			"ids": [
+				"animation.gorgebeast.suck",
+				"animation.gorgebeast.swim"
+			]
+		}
+	},
+	"recipe": {
+		"BP/recipes/diving_helmet.json": {
+			"tags": [
+				"crafting_table"
+			]
+		}
+	}
+}

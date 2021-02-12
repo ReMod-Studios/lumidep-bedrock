@@ -1,0 +1,33 @@
+//bridge-file-version: #2
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lumidep:mantaray",
+			"materials": {
+				"default": "entity_static"
+			},
+			"textures": {
+				"default": "textures/entity/mantaraytexture"
+			},
+			"geometry": {
+				"default": "geometry.mantaray"
+			},
+			"animations": {
+				"flap": "animation.mantaray.flap"
+			},
+			"scripts": {
+				"animate": [
+					"flap"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#07001B",
+				"overlay_color": "#D6AFFF"
+			}
+		}
+	}
+}

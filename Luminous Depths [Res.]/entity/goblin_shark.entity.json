@@ -8,7 +8,7 @@
 				"default": "dolphin"
 			},
 			"textures": {
-				"default": "textures/entity/goblin_shark",
+				"default": "textures/entity/gobleshark",
 				"white": "textures/entity/goblin_shark_white"
 			},
 			"geometry": {

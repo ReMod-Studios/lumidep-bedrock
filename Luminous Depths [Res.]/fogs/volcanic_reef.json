@@ -15,7 +15,7 @@
 			"water": {
 				"fog_start": 0,
 				"fog_end": 15,
-				"fog_color": "#121622",
+				"fog_color": "#1A0000",
 				"render_distance_type": "fixed"
 			},
 			"weather": {

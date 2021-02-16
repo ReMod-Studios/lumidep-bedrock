@@ -1,0 +1,24 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "snufie:abyssal_stone"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "abyss_stone",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_absorption": 0.0,
+			"minecraft:friction": 0.6,
+			"minecraft:destroy_time": 3.0,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			}
+		}
+	}
+}

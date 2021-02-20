@@ -1,4 +1,4 @@
-//bridge-file-version: #5
+//bridge-file-version: #6
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -28,7 +28,7 @@
 				]
 			},
 			"render_controllers": [
-				"controller.render.gorgebeast"
+				"controller.render.default"
 			],
 			"spawn_egg": {
 				"base_color": "#132721",

@@ -3,7 +3,7 @@
 	"file_type": "item",
 	"format_version": 1,
 	"file_uuid": "bda3293b_7caa_41f3_8379_afd48d7e3c07",
-	"file_version": 0,
+	"file_version": 1,
 	"cache_content": {
 		"children": [
 			{
@@ -36,7 +36,8 @@
 							},
 							"minecraft:creative_category": {
 								"parent": "itemGroup.name.cookedFood"
-							}
+							},
+							"minecraft:use_animation": "eat"
 						}
 					}
 				},
@@ -66,7 +67,8 @@
 								},
 								"minecraft:creative_category": {
 									"parent": "itemGroup.name.cookedFood"
-								}
+								},
+								"minecraft:use_animation": "eat"
 							}
 						},
 						"key": "description",
@@ -100,7 +102,8 @@
 								},
 								"minecraft:creative_category": {
 									"parent": "itemGroup.name.cookedFood"
-								}
+								},
+								"minecraft:use_animation": "eat"
 							}
 						},
 						"key": "components",
@@ -140,7 +143,8 @@
 									},
 									"minecraft:creative_category": {
 										"parent": "itemGroup.name.cookedFood"
-									}
+									},
+									"minecraft:use_animation": "eat"
 								},
 								"key": "minecraft:food",
 								"is_minified": true,
@@ -168,7 +172,8 @@
 									},
 									"minecraft:creative_category": {
 										"parent": "itemGroup.name.cookedFood"
-									}
+									},
+									"minecraft:use_animation": "eat"
 								},
 								"key": "minecraft:icon",
 								"is_minified": true,
@@ -199,7 +204,8 @@
 									},
 									"minecraft:creative_category": {
 										"parent": "itemGroup.name.cookedFood"
-									}
+									},
+									"minecraft:use_animation": "eat"
 								},
 								"key": "minecraft:display_name",
 								"is_minified": true,
@@ -226,13 +232,18 @@
 									},
 									"minecraft:creative_category": {
 										"parent": "itemGroup.name.cookedFood"
-									}
+									},
+									"minecraft:use_animation": "eat"
 								},
 								"key": "minecraft:creative_category",
 								"is_minified": true,
 								"children": {
 									"parent": "itemGroup.name.cookedFood"
 								}
+							},
+							{
+								"data": "eat",
+								"key": "minecraft:use_animation"
 							}
 						]
 					}

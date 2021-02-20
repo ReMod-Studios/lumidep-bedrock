@@ -1,11 +1,11 @@
-//bridge-file-version: #0
+//bridge-file-version: #1
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "lumidep:krepler",
 			"materials": {
-				"default": "entity_static"
+				"default": "entity_alphatest"
 			},
 			"textures": {
 				"default": "textures/entity/krepler"

@@ -3,7 +3,7 @@
 	"file_type": "client_entity",
 	"format_version": 1,
 	"file_uuid": "717e7efd_c490_478b_aa84_82bc74a3768d",
-	"file_version": 0,
+	"file_version": 1,
 	"cache_content": {
 		"children": [
 			{
@@ -17,7 +17,7 @@
 						"description": {
 							"identifier": "lumidep:krepler",
 							"materials": {
-								"default": "entity_static"
+								"default": "entity_alphatest"
 							},
 							"textures": {
 								"default": "textures/entity/krepler"
@@ -42,7 +42,7 @@
 							"description": {
 								"identifier": "lumidep:krepler",
 								"materials": {
-									"default": "entity_static"
+									"default": "entity_alphatest"
 								},
 								"textures": {
 									"default": "textures/entity/krepler"
@@ -69,7 +69,7 @@
 								"open": {
 									"identifier": "lumidep:krepler",
 									"materials": {
-										"default": "entity_static"
+										"default": "entity_alphatest"
 									},
 									"textures": {
 										"default": "textures/entity/krepler"
@@ -88,14 +88,14 @@
 								"key": "materials",
 								"is_minified": true,
 								"children": {
-									"default": "entity_static"
+									"default": "entity_alphatest"
 								}
 							},
 							{
 								"open": {
 									"identifier": "lumidep:krepler",
 									"materials": {
-										"default": "entity_static"
+										"default": "entity_alphatest"
 									},
 									"textures": {
 										"default": "textures/entity/krepler"
@@ -121,7 +121,7 @@
 								"open": {
 									"identifier": "lumidep:krepler",
 									"materials": {
-										"default": "entity_static"
+										"default": "entity_alphatest"
 									},
 									"textures": {
 										"default": "textures/entity/krepler"
@@ -147,7 +147,7 @@
 								"open": {
 									"identifier": "lumidep:krepler",
 									"materials": {
-										"default": "entity_static"
+										"default": "entity_alphatest"
 									},
 									"textures": {
 										"default": "textures/entity/krepler"
@@ -173,7 +173,7 @@
 								"open": {
 									"identifier": "lumidep:krepler",
 									"materials": {
-										"default": "entity_static"
+										"default": "entity_alphatest"
 									},
 									"textures": {
 										"default": "textures/entity/krepler"

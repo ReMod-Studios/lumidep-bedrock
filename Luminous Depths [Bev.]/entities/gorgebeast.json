@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.16.0",
 	"minecraft:entity": {
@@ -103,12 +103,11 @@
 				"speed_multiplier": 0.014,
 				"wander_time": 5
 			},
-			"minecraft:nameable": {},
-			"minecraft:conditional_bandwidth_optimization": {},
 			"minecraft:shooter": {
-				"type": "Arrow",
 				"def": "minecraft:arrow"
 			},
+			"minecraft:nameable": {},
+			"minecraft:conditional_bandwidth_optimization": {},
 			"minecraft:behavior.hurt_by_target": {
 				"priority": 1
 			},

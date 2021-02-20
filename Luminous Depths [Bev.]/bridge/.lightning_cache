@@ -196,8 +196,7 @@
 	"biome": {
 		"BP/biomes/deep_volcanic_reef.biome.json": {
 			"tags": [
-				"volcanic_reef",
-				"deep_ocean"
+				"volcanic"
 			]
 		}
 	},
@@ -331,8 +330,52 @@
 				"default"
 			],
 			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/goblin_shark.entity.json": {
+			"identifiers": [
+				"lumidep:goblin_shark"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
 				"default",
-				"invisible"
+				"white"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/isopod.entity.json": {
+			"identifiers": [
+				"lumidep:isopod"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"idle"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
 			],
 			"geometry_references": [
 				"default"
@@ -351,11 +394,6 @@
 		"RP/render_controllers/goblin_shark.json": {
 			"ids": [
 				"controller.render.goblin_shark"
-			]
-		},
-		"RP/render_controllers/gorgebeast.render_controllers.json": {
-			"ids": [
-				"controller.render.gorgebeast"
 			]
 		}
 	},
@@ -376,12 +414,6 @@
 			"ids": [
 				"animation.isopod.idle"
 			]
-		},
-		"RP/animations/gorgebeast.animation.json": {
-			"ids": [
-				"animation.gorgebeast.suck",
-				"animation.gorgebeast.swim"
-			]
 		}
 	},
 	"recipe": {
@@ -389,6 +421,26 @@
 			"tags": [
 				"crafting_table"
 			]
+		}
+	},
+	"block": {
+		"BP/blocks/abyssal_stone.json": {
+			"identifiers": [
+				"lumidep:abyssal_stone"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/black_sand.json": {
+			"identifiers": [
+				"lumidep:black_sand"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	}
 }

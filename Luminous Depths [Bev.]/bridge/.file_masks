@@ -52,9 +52,6 @@
 	"RP/attachables/diving_helmet.player.json": {
 		"data": {}
 	},
-	"BP/biomes/deep_volcanic_reef.biome.json": {
-		"data": {}
-	},
 	"RP/textures/item_texture.json": {
 		"data": {}
 	},
@@ -124,13 +121,7 @@
 	"RP/animations/isopod.animation.json": {
 		"data": {}
 	},
-	"RP/animations/gorgebeast.animation.json": {
-		"data": {}
-	},
 	"BP/entities/gorgebeast.json": {
-		"data": {}
-	},
-	"RP/render_controllers/gorgebeast.render_controllers.json": {
 		"data": {}
 	},
 	"RP/entity/gorgebeast.json": {
@@ -140,6 +131,27 @@
 		"data": {}
 	},
 	"BP/loot_tables/entities/gorgebeast.json": {
+		"data": {}
+	},
+	"RP/blocks.json": {
+		"data": {}
+	},
+	"BP/blocks/abyssal_stone.json": {
+		"data": {}
+	},
+	"BP/blocks/black_sand.json": {
+		"data": {}
+	},
+	"RP/textures/terrain_texture.json": {
+		"data": {}
+	},
+	"RP/entity/goblin_shark.entity.json": {
+		"data": {}
+	},
+	"RP/entity/isopod.entity.json": {
+		"data": {}
+	},
+	"BP/biomes/deep_volcanic_reef.biome.json": {
 		"data": {}
 	}
 }

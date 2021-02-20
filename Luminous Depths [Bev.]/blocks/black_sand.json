@@ -1,15 +1,15 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "lumidep:abyssal_stone"
+			"identifier": "lumidep:black_sand"
 		},
 		"components": {
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "abyss_stone",
+					"texture": "black_sand",
 					"render_method": "opaque"
 				}
 			},

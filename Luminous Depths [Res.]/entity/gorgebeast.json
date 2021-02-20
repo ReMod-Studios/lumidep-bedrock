@@ -1,12 +1,11 @@
-//bridge-file-version: #2
+//bridge-file-version: #4
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "lumidep:gorgebeast",
 			"materials": {
-				"default": "enderman",
-				"invisible": "enderman_invisible"
+				"default": "emmisive_alpha"
 			},
 			"textures": {
 				"default": "textures/entity/gorgebeast"
@@ -24,7 +23,7 @@
 						"idle": "query.modified_move_speed"
 					},
 					{
-						"attack": "variable.is_attacking > 0.1"
+						"attack": "variable.attack_time > 0.1"
 					}
 				]
 			},

@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -8,8 +8,8 @@
 				"default": "dolphin"
 			},
 			"textures": {
-				"default": "textures/entity/gobleshark",
-				"white": "textures/entity/goblin_shark_white"
+				"default": "textures/entity/gobleshark_purple",
+				"white": "textures/entity/gobleshark_white"
 			},
 			"geometry": {
 				"default": "geometry.goblin_shark"

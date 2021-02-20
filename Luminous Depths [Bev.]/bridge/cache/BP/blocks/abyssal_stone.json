@@ -1,0 +1,150 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\blocks\\abyssal_stone.json",
+	"file_type": "block",
+	"format_version": 1,
+	"file_uuid": "92a42e69_2c0b_4a4a_bda1_f4aa026005c4",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:block": {
+						"description": {
+							"identifier": "lumidep:abyssal_stone"
+						},
+						"components": {
+							"minecraft:unit_cube": {},
+							"minecraft:material_instances": {
+								"*": {
+									"texture": "abyss_stone",
+									"render_method": "opaque"
+								}
+							},
+							"minecraft:friction": 0.6,
+							"minecraft:destroy_time": 3,
+							"minecraft:flammable": {
+								"flame_odds": 0,
+								"burn_odds": 0
+							}
+						}
+					}
+				},
+				"key": "minecraft:block",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:abyssal_stone"
+							},
+							"components": {
+								"minecraft:unit_cube": {},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "abyss_stone",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:friction": 0.6,
+								"minecraft:destroy_time": 3,
+								"minecraft:flammable": {
+									"flame_odds": 0,
+									"burn_odds": 0
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lumidep:abyssal_stone"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:abyssal_stone"
+							},
+							"components": {
+								"minecraft:unit_cube": {},
+								"minecraft:material_instances": {
+									"*": {
+										"texture": "abyss_stone",
+										"render_method": "opaque"
+									}
+								},
+								"minecraft:friction": 0.6,
+								"minecraft:destroy_time": 3,
+								"minecraft:flammable": {
+									"flame_odds": 0,
+									"burn_odds": 0
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:unit_cube",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:unit_cube": {},
+									"minecraft:material_instances": {
+										"*": {
+											"texture": "abyss_stone",
+											"render_method": "opaque"
+										}
+									},
+									"minecraft:friction": 0.6,
+									"minecraft:destroy_time": 3,
+									"minecraft:flammable": {
+										"flame_odds": 0,
+										"burn_odds": 0
+									}
+								},
+								"key": "minecraft:material_instances",
+								"children": [
+									{
+										"open": {
+											"*": {
+												"texture": "abyss_stone",
+												"render_method": "opaque"
+											}
+										},
+										"key": "*",
+										"is_minified": true,
+										"children": {
+											"texture": "abyss_stone",
+											"render_method": "opaque"
+										}
+									}
+								]
+							},
+							{
+								"data": "0.6",
+								"key": "minecraft:friction"
+							},
+							{
+								"data": "3",
+								"key": "minecraft:destroy_time"
+							},
+							{
+								"key": "minecraft:flammable",
+								"is_minified": true,
+								"children": {
+									"flame_odds": 0,
+									"burn_odds": 0
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

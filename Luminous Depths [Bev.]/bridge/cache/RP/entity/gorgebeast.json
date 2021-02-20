@@ -3,7 +3,7 @@
 	"file_type": "client_entity",
 	"format_version": 1,
 	"file_uuid": "f613cb53_4136_4fe8_a295_5f3edf2bfa09",
-	"file_version": 2,
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -17,8 +17,7 @@
 						"description": {
 							"identifier": "lumidep:gorgebeast",
 							"materials": {
-								"default": "enderman",
-								"invisible": "enderman_invisible"
+								"default": "emmisive_alpha"
 							},
 							"textures": {
 								"default": "textures/entity/gorgebeast"
@@ -36,7 +35,7 @@
 										"idle": "query.modified_move_speed"
 									},
 									{
-										"attack": "variable.is_attacking > 0.1"
+										"attack": "variable.attack_time > 0.1"
 									}
 								]
 							},
@@ -57,8 +56,7 @@
 							"description": {
 								"identifier": "lumidep:gorgebeast",
 								"materials": {
-									"default": "enderman",
-									"invisible": "enderman_invisible"
+									"default": "emmisive_alpha"
 								},
 								"textures": {
 									"default": "textures/entity/gorgebeast"
@@ -76,7 +74,7 @@
 											"idle": "query.modified_move_speed"
 										},
 										{
-											"attack": "variable.is_attacking > 0.1"
+											"attack": "variable.attack_time > 0.1"
 										}
 									]
 								},
@@ -99,8 +97,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -118,7 +115,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},
@@ -133,16 +130,14 @@
 								"key": "materials",
 								"is_minified": true,
 								"children": {
-									"default": "enderman",
-									"invisible": "enderman_invisible"
+									"default": "emmisive_alpha"
 								}
 							},
 							{
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -160,7 +155,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},
@@ -182,8 +177,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -201,7 +195,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},
@@ -223,8 +217,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -242,7 +235,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},
@@ -265,8 +258,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -284,7 +276,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},
@@ -305,7 +297,7 @@
 													"idle": "query.modified_move_speed"
 												},
 												{
-													"attack": "variable.is_attacking > 0.1"
+													"attack": "variable.attack_time > 0.1"
 												}
 											]
 										},
@@ -317,7 +309,7 @@
 														"idle": "query.modified_move_speed"
 													},
 													{
-														"attack": "variable.is_attacking > 0.1"
+														"attack": "variable.attack_time > 0.1"
 													}
 												],
 												"is_minified": true,
@@ -331,12 +323,12 @@
 														"idle": "query.modified_move_speed"
 													},
 													{
-														"attack": "variable.is_attacking > 0.1"
+														"attack": "variable.attack_time > 0.1"
 													}
 												],
 												"is_minified": true,
 												"children": {
-													"attack": "variable.is_attacking > 0.1"
+													"attack": "variable.attack_time > 0.1"
 												}
 											}
 										]
@@ -347,8 +339,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -366,7 +357,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},
@@ -388,8 +379,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "enderman",
-										"invisible": "enderman_invisible"
+										"default": "emmisive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -407,7 +397,7 @@
 												"idle": "query.modified_move_speed"
 											},
 											{
-												"attack": "variable.is_attacking > 0.1"
+												"attack": "variable.attack_time > 0.1"
 											}
 										]
 									},

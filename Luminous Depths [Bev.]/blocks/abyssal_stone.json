@@ -13,10 +13,6 @@
 					"render_method": "opaque"
 				}
 			},
-<<<<<<< HEAD
-=======
-			"minecraft:block_light_absorption": 0.0,
->>>>>>> 2c0e81f5ed8f0e2ea4fbbe2f3fd0dbc1f0d18fdc
 			"minecraft:friction": 0.6,
 			"minecraft:destroy_time": 3,
 			"minecraft:flammable": {

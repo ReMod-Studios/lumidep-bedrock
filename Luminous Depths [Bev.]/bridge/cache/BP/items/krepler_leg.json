@@ -1,0 +1,243 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\items\\krepler_leg.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "feeeca6f_8225_420b_92a4_11542b80698c",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "lumidep:raw_krepler_leg",
+							"category": "nature"
+						},
+						"components": {
+							"minecraft:use_duration": 1.6,
+							"minecraft:max_stack_size": 64,
+							"minecraft:hand_equipped": false,
+							"minecraft:stacked_by_data": true,
+							"minecraft:food": {
+								"nutrition": 6,
+								"saturation_modifier": "normal"
+							},
+							"minecraft:icon": {
+								"texture": "krepler_leg_raw"
+							},
+							"minecraft:render_offsets": "apple",
+							"minecraft:display_name": {
+								"value": "Raw Krepler Leg"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.rawFood"
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:raw_krepler_leg",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 64,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:food": {
+									"nutrition": 6,
+									"saturation_modifier": "normal"
+								},
+								"minecraft:icon": {
+									"texture": "krepler_leg_raw"
+								},
+								"minecraft:render_offsets": "apple",
+								"minecraft:display_name": {
+									"value": "Raw Krepler Leg"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "lumidep:raw_krepler_leg",
+							"category": "nature"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:raw_krepler_leg",
+								"category": "nature"
+							},
+							"components": {
+								"minecraft:use_duration": 1.6,
+								"minecraft:max_stack_size": 64,
+								"minecraft:hand_equipped": false,
+								"minecraft:stacked_by_data": true,
+								"minecraft:food": {
+									"nutrition": 6,
+									"saturation_modifier": "normal"
+								},
+								"minecraft:icon": {
+									"texture": "krepler_leg_raw"
+								},
+								"minecraft:render_offsets": "apple",
+								"minecraft:display_name": {
+									"value": "Raw Krepler Leg"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1.6",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "64",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "false",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:stacked_by_data"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:food": {
+										"nutrition": 6,
+										"saturation_modifier": "normal"
+									},
+									"minecraft:icon": {
+										"texture": "krepler_leg_raw"
+									},
+									"minecraft:render_offsets": "apple",
+									"minecraft:display_name": {
+										"value": "Raw Krepler Leg"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"key": "minecraft:food",
+								"is_minified": true,
+								"children": {
+									"nutrition": 6,
+									"saturation_modifier": "normal"
+								}
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:food": {
+										"nutrition": 6,
+										"saturation_modifier": "normal"
+									},
+									"minecraft:icon": {
+										"texture": "krepler_leg_raw"
+									},
+									"minecraft:render_offsets": "apple",
+									"minecraft:display_name": {
+										"value": "Raw Krepler Leg"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "krepler_leg_raw"
+								}
+							},
+							{
+								"data": "apple",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:food": {
+										"nutrition": 6,
+										"saturation_modifier": "normal"
+									},
+									"minecraft:icon": {
+										"texture": "krepler_leg_raw"
+									},
+									"minecraft:render_offsets": "apple",
+									"minecraft:display_name": {
+										"value": "Raw Krepler Leg"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Raw Krepler Leg"
+								}
+							},
+							{
+								"open": {
+									"minecraft:use_duration": 1.6,
+									"minecraft:max_stack_size": 64,
+									"minecraft:hand_equipped": false,
+									"minecraft:stacked_by_data": true,
+									"minecraft:food": {
+										"nutrition": 6,
+										"saturation_modifier": "normal"
+									},
+									"minecraft:icon": {
+										"texture": "krepler_leg_raw"
+									},
+									"minecraft:render_offsets": "apple",
+									"minecraft:display_name": {
+										"value": "Raw Krepler Leg"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.rawFood"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.rawFood"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

@@ -3,7 +3,7 @@
 	"file_type": "client_entity",
 	"format_version": 1,
 	"file_uuid": "f613cb53_4136_4fe8_a295_5f3edf2bfa09",
-	"file_version": 4,
+	"file_version": 5,
 	"cache_content": {
 		"children": [
 			{
@@ -17,7 +17,7 @@
 						"description": {
 							"identifier": "lumidep:gorgebeast",
 							"materials": {
-								"default": "emmisive_alpha"
+								"default": "entity_emissive_alpha"
 							},
 							"textures": {
 								"default": "textures/entity/gorgebeast"
@@ -56,7 +56,7 @@
 							"description": {
 								"identifier": "lumidep:gorgebeast",
 								"materials": {
-									"default": "emmisive_alpha"
+									"default": "entity_emissive_alpha"
 								},
 								"textures": {
 									"default": "textures/entity/gorgebeast"
@@ -97,7 +97,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -130,14 +130,14 @@
 								"key": "materials",
 								"is_minified": true,
 								"children": {
-									"default": "emmisive_alpha"
+									"default": "entity_emissive_alpha"
 								}
 							},
 							{
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -177,7 +177,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -217,7 +217,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -258,7 +258,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -339,7 +339,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"
@@ -379,7 +379,7 @@
 								"open": {
 									"identifier": "lumidep:gorgebeast",
 									"materials": {
-										"default": "emmisive_alpha"
+										"default": "entity_emissive_alpha"
 									},
 									"textures": {
 										"default": "textures/entity/gorgebeast"

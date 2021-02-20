@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -21,6 +21,16 @@
 		"gorge_cords": {
 			"textures": [
 				"textures/items/cords_gorge"
+			]
+		},
+		"krepler_leg_raw": {
+			"textures": [
+				"textures/items/krepler_leg_raw"
+			]
+		},
+		"krepler_leg_cooked": {
+			"textures": [
+				"textures/items/krepler_leg_cooked"
 			]
 		}
 	}

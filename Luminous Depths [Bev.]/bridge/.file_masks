@@ -40,6 +40,26 @@
 						}
 					}
 				}
+			},
+			"feeeca6f_8225_420b_92a4_11542b80698c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"bda3293b_7caa_41f3_8379_afd48d7e3c07": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -152,6 +172,24 @@
 		"data": {}
 	},
 	"BP/biomes/deep_volcanic_reef.biome.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/krepler.json": {
+		"data": {}
+	},
+	"BP/items/krepler_leg.json": {
+		"data": {}
+	},
+	"BP/entities/krepler.json": {
+		"data": {}
+	},
+	"BP/items/cooked_krepler_leg.json": {
+		"data": {}
+	},
+	"RP/entity/krepler.entity.json": {
+		"data": {}
+	},
+	"BP/recipes/cooked_krepler_legs.json": {
 		"data": {}
 	}
 }

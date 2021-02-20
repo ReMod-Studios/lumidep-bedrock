@@ -1,11 +1,11 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "lumidep:gorgebeast",
 			"materials": {
-				"default": "emmisive_alpha"
+				"default": "entity_emissive_alpha"
 			},
 			"textures": {
 				"default": "textures/entity/gorgebeast"

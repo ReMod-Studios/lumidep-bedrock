@@ -1,0 +1,205 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Luminous Depths [Res.]\\entity\\krepler.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "717e7efd_c490_478b_aa84_82bc74a3768d",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "lumidep:krepler",
+							"materials": {
+								"default": "entity_static"
+							},
+							"textures": {
+								"default": "textures/entity/krepler"
+							},
+							"geometry": {
+								"default": "geometry.krepler_adult"
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"base_color": "#328500",
+								"overlay_color": "#FF5600"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "lumidep:krepler",
+								"materials": {
+									"default": "entity_static"
+								},
+								"textures": {
+									"default": "textures/entity/krepler"
+								},
+								"geometry": {
+									"default": "geometry.krepler_adult"
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"base_color": "#328500",
+									"overlay_color": "#FF5600"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "lumidep:krepler",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "lumidep:krepler",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/krepler"
+									},
+									"geometry": {
+										"default": "geometry.krepler_adult"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#328500",
+										"overlay_color": "#FF5600"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_static"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:krepler",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/krepler"
+									},
+									"geometry": {
+										"default": "geometry.krepler_adult"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#328500",
+										"overlay_color": "#FF5600"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/krepler"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:krepler",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/krepler"
+									},
+									"geometry": {
+										"default": "geometry.krepler_adult"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#328500",
+										"overlay_color": "#FF5600"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.krepler_adult"
+								}
+							},
+							{
+								"open": {
+									"identifier": "lumidep:krepler",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/krepler"
+									},
+									"geometry": {
+										"default": "geometry.krepler_adult"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#328500",
+										"overlay_color": "#FF5600"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "lumidep:krepler",
+									"materials": {
+										"default": "entity_static"
+									},
+									"textures": {
+										"default": "textures/entity/krepler"
+									},
+									"geometry": {
+										"default": "geometry.krepler_adult"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"base_color": "#328500",
+										"overlay_color": "#FF5600"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"base_color": "#328500",
+									"overlay_color": "#FF5600"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

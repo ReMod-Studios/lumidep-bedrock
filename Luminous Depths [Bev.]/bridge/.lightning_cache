@@ -165,6 +165,20 @@
 			],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/entities/krepler.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"lumidep:krepler"
+			],
+			"animation_references": [],
+			"families": [
+				"isopod",
+				"arthropod"
+			],
+			"custom_commands": [],
+			"custom_components": []
 		}
 	},
 	"item": {
@@ -189,6 +203,18 @@
 		"BP/items/gorge_cords.json": {
 			"identifiers": [
 				"lumidep:gorge_cords"
+			],
+			"custom_commands": []
+		},
+		"BP/items/krepler_leg.json": {
+			"identifiers": [
+				"lumidep:raw_krepler_leg"
+			],
+			"custom_commands": []
+		},
+		"BP/items/cooked_krepler_leg.json": {
+			"identifiers": [
+				"lumidep:cooked_krepler_leg"
 			],
 			"custom_commands": []
 		}
@@ -383,6 +409,26 @@
 			"geometry_identifiers": [
 				"default"
 			]
+		},
+		"RP/entity/krepler.entity.json": {
+			"identifiers": [
+				"lumidep:krepler"
+			],
+			"particle_references": [],
+			"animation_references": [],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
 		}
 	},
 	"render_controller": {
@@ -420,6 +466,12 @@
 		"BP/recipes/diving_helmet.json": {
 			"tags": [
 				"crafting_table"
+			]
+		},
+		"BP/recipes/cooked_krepler_legs.json": {
+			"tags": [
+				"furnace",
+				"smoker"
 			]
 		}
 	},

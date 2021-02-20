@@ -1,0 +1,141 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\loot_tables\\entities\\krepler.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "5d71b708_ba63_42e1_b4f8_109cc212eb5c",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"name": "lumidep:raw_krepler_leg",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": 1
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"children": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"name": "lumidep:raw_krepler_leg",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": 1
+											}
+										]
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"name": "lumidep:raw_krepler_leg",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": 1
+												}
+											]
+										}
+									]
+								},
+								"key": "entries",
+								"children": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"name": "lumidep:raw_krepler_leg",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": 1
+													}
+												]
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "lumidep:raw_krepler_leg",
+												"key": "name"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"name": "lumidep:raw_krepler_leg",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": 1
+														}
+													]
+												},
+												"key": "functions",
+												"children": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": 1
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"function": "set_count",
+															"count": 1
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

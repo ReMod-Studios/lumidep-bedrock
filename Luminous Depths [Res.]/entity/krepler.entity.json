@@ -1,0 +1,25 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lumidep:krepler",
+			"materials": {
+				"default": "entity_static"
+			},
+			"textures": {
+				"default": "textures/entity/krepler"
+			},
+			"geometry": {
+				"default": "geometry.krepler_adult"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#328500",
+				"overlay_color": "#FF5600"
+			}
+		}
+	}
+}

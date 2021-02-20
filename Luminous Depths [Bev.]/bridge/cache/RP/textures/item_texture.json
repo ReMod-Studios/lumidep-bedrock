@@ -3,7 +3,7 @@
 	"file_type": "item_texture",
 	"format_version": 1,
 	"file_uuid": "3e10c295_8430_4eca_bf33_a6c2b142c19a",
-	"file_version": 3,
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -38,6 +38,16 @@
 							"textures": [
 								"textures/items/cords_gorge"
 							]
+						},
+						"krepler_leg_raw": {
+							"textures": [
+								"textures/items/krepler_leg_raw"
+							]
+						},
+						"krepler_leg_cooked": {
+							"textures": [
+								"textures/items/krepler_leg_cooked"
+							]
 						}
 					}
 				},
@@ -63,6 +73,16 @@
 							"gorge_cords": {
 								"textures": [
 									"textures/items/cords_gorge"
+								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
 								]
 							}
 						},
@@ -103,6 +123,16 @@
 								"textures": [
 									"textures/items/cords_gorge"
 								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
+								]
 							}
 						},
 						"key": "esca",
@@ -141,6 +171,16 @@
 							"gorge_cords": {
 								"textures": [
 									"textures/items/cords_gorge"
+								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
 								]
 							}
 						},
@@ -181,6 +221,16 @@
 								"textures": [
 									"textures/items/cords_gorge"
 								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
+								]
 							}
 						},
 						"key": "gorge_cords",
@@ -195,6 +245,104 @@
 								"is_minified": true,
 								"children": [
 									"textures/items/cords_gorge"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
+								]
+							}
+						},
+						"key": "krepler_leg_raw",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/krepler_leg_raw"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/krepler_leg_raw"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
+								]
+							}
+						},
+						"key": "krepler_leg_cooked",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/krepler_leg_cooked"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/krepler_leg_cooked"
 								]
 							}
 						]

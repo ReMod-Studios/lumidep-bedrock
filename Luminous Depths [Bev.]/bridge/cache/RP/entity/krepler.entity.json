@@ -3,7 +3,7 @@
 	"file_type": "client_entity",
 	"format_version": 1,
 	"file_uuid": "717e7efd_c490_478b_aa84_82bc74a3768d",
-	"file_version": 1,
+	"file_version": 3,
 	"cache_content": {
 		"children": [
 			{
@@ -20,13 +20,14 @@
 								"default": "entity_alphatest"
 							},
 							"textures": {
-								"default": "textures/entity/krepler"
+								"default": "textures/entity/krepler/krepler",
+								"volcanic": "textures/entity/krepler/krepler_volcanic"
 							},
 							"geometry": {
 								"default": "geometry.krepler_adult"
 							},
 							"render_controllers": [
-								"controller.render.default"
+								"controller.render.krepler"
 							],
 							"spawn_egg": {
 								"base_color": "#328500",
@@ -45,13 +46,14 @@
 									"default": "entity_alphatest"
 								},
 								"textures": {
-									"default": "textures/entity/krepler"
+									"default": "textures/entity/krepler/krepler",
+									"volcanic": "textures/entity/krepler/krepler_volcanic"
 								},
 								"geometry": {
 									"default": "geometry.krepler_adult"
 								},
 								"render_controllers": [
-									"controller.render.default"
+									"controller.render.krepler"
 								],
 								"spawn_egg": {
 									"base_color": "#328500",
@@ -72,13 +74,14 @@
 										"default": "entity_alphatest"
 									},
 									"textures": {
-										"default": "textures/entity/krepler"
+										"default": "textures/entity/krepler/krepler",
+										"volcanic": "textures/entity/krepler/krepler_volcanic"
 									},
 									"geometry": {
 										"default": "geometry.krepler_adult"
 									},
 									"render_controllers": [
-										"controller.render.default"
+										"controller.render.krepler"
 									],
 									"spawn_egg": {
 										"base_color": "#328500",
@@ -98,13 +101,14 @@
 										"default": "entity_alphatest"
 									},
 									"textures": {
-										"default": "textures/entity/krepler"
+										"default": "textures/entity/krepler/krepler",
+										"volcanic": "textures/entity/krepler/krepler_volcanic"
 									},
 									"geometry": {
 										"default": "geometry.krepler_adult"
 									},
 									"render_controllers": [
-										"controller.render.default"
+										"controller.render.krepler"
 									],
 									"spawn_egg": {
 										"base_color": "#328500",
@@ -114,7 +118,8 @@
 								"key": "textures",
 								"is_minified": true,
 								"children": {
-									"default": "textures/entity/krepler"
+									"default": "textures/entity/krepler/krepler",
+									"volcanic": "textures/entity/krepler/krepler_volcanic"
 								}
 							},
 							{
@@ -124,13 +129,14 @@
 										"default": "entity_alphatest"
 									},
 									"textures": {
-										"default": "textures/entity/krepler"
+										"default": "textures/entity/krepler/krepler",
+										"volcanic": "textures/entity/krepler/krepler_volcanic"
 									},
 									"geometry": {
 										"default": "geometry.krepler_adult"
 									},
 									"render_controllers": [
-										"controller.render.default"
+										"controller.render.krepler"
 									],
 									"spawn_egg": {
 										"base_color": "#328500",
@@ -150,13 +156,14 @@
 										"default": "entity_alphatest"
 									},
 									"textures": {
-										"default": "textures/entity/krepler"
+										"default": "textures/entity/krepler/krepler",
+										"volcanic": "textures/entity/krepler/krepler_volcanic"
 									},
 									"geometry": {
 										"default": "geometry.krepler_adult"
 									},
 									"render_controllers": [
-										"controller.render.default"
+										"controller.render.krepler"
 									],
 									"spawn_egg": {
 										"base_color": "#328500",
@@ -166,7 +173,7 @@
 								"key": "render_controllers",
 								"is_minified": true,
 								"children": [
-									"controller.render.default"
+									"controller.render.krepler"
 								]
 							},
 							{
@@ -176,13 +183,14 @@
 										"default": "entity_alphatest"
 									},
 									"textures": {
-										"default": "textures/entity/krepler"
+										"default": "textures/entity/krepler/krepler",
+										"volcanic": "textures/entity/krepler/krepler_volcanic"
 									},
 									"geometry": {
 										"default": "geometry.krepler_adult"
 									},
 									"render_controllers": [
-										"controller.render.default"
+										"controller.render.krepler"
 									],
 									"spawn_egg": {
 										"base_color": "#328500",

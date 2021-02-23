@@ -1,9 +1,9 @@
 {
-	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\blocks\\black_sand.json",
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\blocks\\cracked_abyssal_bricks.json",
 	"file_type": "block",
 	"format_version": 1,
-	"file_uuid": "cde5b452_058e_4e65_ab8b_11a860b281d8",
-	"file_version": 3,
+	"file_uuid": "0339fb7d_d1eb_4fea_9588_ac2f964bda64",
+	"file_version": 0,
 	"cache_content": {
 		"children": [
 			{
@@ -15,13 +15,13 @@
 					"format_version": "1.16.100",
 					"minecraft:block": {
 						"description": {
-							"identifier": "lumidep:black_sand"
+							"identifier": "lumidep:cracked_abyssal_bricks"
 						},
 						"components": {
 							"minecraft:unit_cube": {},
 							"minecraft:material_instances": {
 								"*": {
-									"texture": "black_sand",
+									"texture": "abyss_bricks_cracked",
 									"render_method": "opaque"
 								}
 							},
@@ -31,7 +31,8 @@
 								"flame_odds": 0,
 								"burn_odds": 0
 							}
-						}
+						},
+						"events": {}
 					}
 				},
 				"key": "minecraft:block",
@@ -39,13 +40,13 @@
 					{
 						"open": {
 							"description": {
-								"identifier": "lumidep:black_sand"
+								"identifier": "lumidep:cracked_abyssal_bricks"
 							},
 							"components": {
 								"minecraft:unit_cube": {},
 								"minecraft:material_instances": {
 									"*": {
-										"texture": "black_sand",
+										"texture": "abyss_bricks_cracked",
 										"render_method": "opaque"
 									}
 								},
@@ -55,24 +56,25 @@
 									"flame_odds": 0,
 									"burn_odds": 0
 								}
-							}
+							},
+							"events": {}
 						},
 						"key": "description",
 						"is_minified": true,
 						"children": {
-							"identifier": "lumidep:black_sand"
+							"identifier": "lumidep:cracked_abyssal_bricks"
 						}
 					},
 					{
 						"open": {
 							"description": {
-								"identifier": "lumidep:black_sand"
+								"identifier": "lumidep:cracked_abyssal_bricks"
 							},
 							"components": {
 								"minecraft:unit_cube": {},
 								"minecraft:material_instances": {
 									"*": {
-										"texture": "black_sand",
+										"texture": "abyss_bricks_cracked",
 										"render_method": "opaque"
 									}
 								},
@@ -82,7 +84,8 @@
 									"flame_odds": 0,
 									"burn_odds": 0
 								}
-							}
+							},
+							"events": {}
 						},
 						"key": "components",
 						"children": [
@@ -96,7 +99,7 @@
 									"minecraft:unit_cube": {},
 									"minecraft:material_instances": {
 										"*": {
-											"texture": "black_sand",
+											"texture": "abyss_bricks_cracked",
 											"render_method": "opaque"
 										}
 									},
@@ -112,14 +115,14 @@
 									{
 										"open": {
 											"*": {
-												"texture": "black_sand",
+												"texture": "abyss_bricks_cracked",
 												"render_method": "opaque"
 											}
 										},
 										"key": "*",
 										"is_minified": true,
 										"children": {
-											"texture": "black_sand",
+											"texture": "abyss_bricks_cracked",
 											"render_method": "opaque"
 										}
 									}
@@ -142,6 +145,11 @@
 								}
 							}
 						]
+					},
+					{
+						"key": "events",
+						"is_minified": true,
+						"children": {}
 					}
 				]
 			}

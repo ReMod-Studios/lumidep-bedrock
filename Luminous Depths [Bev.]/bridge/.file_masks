@@ -60,6 +60,26 @@
 						}
 					}
 				}
+			},
+			"4d0205a9_715e_470f_8144_0c79097a89ce": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"159f2f37_3082_4951_9d75_e94c9b91d94c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
 			}
 		}
 	},
@@ -94,9 +114,6 @@
 		"data": {}
 	},
 	"RP/fogs/volcanic_reef.json": {
-		"data": {}
-	},
-	"RP/render_controllers/goblin_shark.json": {
 		"data": {}
 	},
 	"BP/entities/goblin_shark.json": {
@@ -144,9 +161,6 @@
 	"BP/entities/gorgebeast.json": {
 		"data": {}
 	},
-	"RP/entity/gorgebeast.json": {
-		"data": {}
-	},
 	"BP/items/gorge_cords.json": {
 		"data": {}
 	},
@@ -190,6 +204,39 @@
 		"data": {}
 	},
 	"BP/recipes/cooked_krepler_legs.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/krepler_attack.json": {
+		"data": {}
+	},
+	"RP/render_controllers/goblin_shark.render_controllers.json": {
+		"data": {}
+	},
+	"RP/render_controllers/krepler.render_controllers.json": {
+		"data": {}
+	},
+	"RP/entity/gorgebeast.entity.json": {
+		"data": {}
+	},
+	"BP/blocks/abyssal_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/carved_abyssal_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/cracked_abyssal_bricks.json": {
+		"data": {}
+	},
+	"BP/blocks/mossy_abyssal_bricks.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/gorgebeast_attack.json": {
+		"data": {}
+	},
+	"BP/items/bucket_of_isopod.json": {
+		"data": {}
+	},
+	"BP/items/bucket_of_anglerfish.json": {
 		"data": {}
 	}
 }

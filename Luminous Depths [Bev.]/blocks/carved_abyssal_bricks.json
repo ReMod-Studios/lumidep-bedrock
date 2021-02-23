@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lumidep:carved_abyssal_bricks"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "abyss_bricks_carved",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:friction": 0.6,
+			"minecraft:destroy_time": 3,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+			}
+		},
+		"events": {}
+	}
+}

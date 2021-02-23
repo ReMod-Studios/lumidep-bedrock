@@ -1,6 +1,6 @@
-//bridge-file-version: #4
+//bridge-file-version: #6
 {
-	"format_version": "1.16.0",
+	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
 			"identifier": "lumidep:anglerfish",
@@ -191,6 +191,10 @@
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/anglerfish.json"
+			},
+			"minecraft:health": {
+				"value": 10,
+				"max": 10
 			}
 		},
 		"component_groups": {},

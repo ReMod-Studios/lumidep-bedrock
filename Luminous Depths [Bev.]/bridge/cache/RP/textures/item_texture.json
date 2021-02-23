@@ -3,7 +3,7 @@
 	"file_type": "item_texture",
 	"format_version": 1,
 	"file_uuid": "3e10c295_8430_4eca_bf33_a6c2b142c19a",
-	"file_version": 4,
+	"file_version": 5,
 	"cache_content": {
 		"children": [
 			{
@@ -48,6 +48,16 @@
 							"textures": [
 								"textures/items/krepler_leg_cooked"
 							]
+						},
+						"bucket_of_isopod": {
+							"textures": [
+								"textures/items/bucket_of_isopod"
+							]
+						},
+						"bucket_of_anglerfish": {
+							"textures": [
+								"textures/items/bucket_of_anglerfish"
+							]
 						}
 					}
 				},
@@ -83,6 +93,16 @@
 							"krepler_leg_cooked": {
 								"textures": [
 									"textures/items/krepler_leg_cooked"
+								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
 								]
 							}
 						},
@@ -133,6 +153,16 @@
 								"textures": [
 									"textures/items/krepler_leg_cooked"
 								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
+								]
 							}
 						},
 						"key": "esca",
@@ -181,6 +211,16 @@
 							"krepler_leg_cooked": {
 								"textures": [
 									"textures/items/krepler_leg_cooked"
+								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
 								]
 							}
 						},
@@ -231,6 +271,16 @@
 								"textures": [
 									"textures/items/krepler_leg_cooked"
 								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
+								]
 							}
 						},
 						"key": "gorge_cords",
@@ -279,6 +329,16 @@
 							"krepler_leg_cooked": {
 								"textures": [
 									"textures/items/krepler_leg_cooked"
+								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
 								]
 							}
 						},
@@ -329,6 +389,16 @@
 								"textures": [
 									"textures/items/krepler_leg_cooked"
 								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
+								]
 							}
 						},
 						"key": "krepler_leg_cooked",
@@ -343,6 +413,124 @@
 								"is_minified": true,
 								"children": [
 									"textures/items/krepler_leg_cooked"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
+								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
+								]
+							}
+						},
+						"key": "bucket_of_isopod",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bucket_of_isopod"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bucket_of_isopod"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"diving_helmet": {
+								"textures": [
+									"textures/items/diving_helmet"
+								]
+							},
+							"esca": {
+								"textures": [
+									"textures/items/esca"
+								]
+							},
+							"carapace": {
+								"textures": [
+									"textures/items/carapace"
+								]
+							},
+							"gorge_cords": {
+								"textures": [
+									"textures/items/cords_gorge"
+								]
+							},
+							"krepler_leg_raw": {
+								"textures": [
+									"textures/items/krepler_leg_raw"
+								]
+							},
+							"krepler_leg_cooked": {
+								"textures": [
+									"textures/items/krepler_leg_cooked"
+								]
+							},
+							"bucket_of_isopod": {
+								"textures": [
+									"textures/items/bucket_of_isopod"
+								]
+							},
+							"bucket_of_anglerfish": {
+								"textures": [
+									"textures/items/bucket_of_anglerfish"
+								]
+							}
+						},
+						"key": "bucket_of_anglerfish",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/items/bucket_of_anglerfish"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/items/bucket_of_anglerfish"
 								]
 							}
 						]

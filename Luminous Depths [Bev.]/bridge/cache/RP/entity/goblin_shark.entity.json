@@ -3,7 +3,7 @@
 	"file_type": "client_entity",
 	"format_version": 1,
 	"file_uuid": "863896ce_2f09_45e9_ba85_1ffb8e5ebd46",
-	"file_version": 4,
+	"file_version": 5,
 	"cache_content": {
 		"children": [
 			{
@@ -20,8 +20,8 @@
 								"default": "dolphin"
 							},
 							"textures": {
-								"default": "textures/entity/gobleshark_purple",
-								"white": "textures/entity/gobleshark_white"
+								"default": "textures/entity/goblin_shark/goblin_shark_purple",
+								"white": "textures/entity/goblin_shark/goblin_shark_white"
 							},
 							"geometry": {
 								"default": "geometry.goblin_shark"
@@ -54,8 +54,8 @@
 									"default": "dolphin"
 								},
 								"textures": {
-									"default": "textures/entity/gobleshark_purple",
-									"white": "textures/entity/gobleshark_white"
+									"default": "textures/entity/goblin_shark/goblin_shark_purple",
+									"white": "textures/entity/goblin_shark/goblin_shark_white"
 								},
 								"geometry": {
 									"default": "geometry.goblin_shark"
@@ -97,8 +97,8 @@
 										"default": "dolphin"
 									},
 									"textures": {
-										"default": "textures/entity/gobleshark_purple",
-										"white": "textures/entity/gobleshark_white"
+										"default": "textures/entity/goblin_shark/goblin_shark_purple",
+										"white": "textures/entity/goblin_shark/goblin_shark_white"
 									},
 									"geometry": {
 										"default": "geometry.goblin_shark"
@@ -122,8 +122,8 @@
 								"key": "textures",
 								"is_minified": true,
 								"children": {
-									"default": "textures/entity/gobleshark_purple",
-									"white": "textures/entity/gobleshark_white"
+									"default": "textures/entity/goblin_shark/goblin_shark_purple",
+									"white": "textures/entity/goblin_shark/goblin_shark_white"
 								}
 							},
 							{

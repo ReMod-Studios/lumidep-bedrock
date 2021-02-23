@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\biomes\\deep_volcanic_reef.biome.json",
 	"file_type": "biome",
 	"format_version": 1,
-	"file_uuid": "37e600ac_142c_483f_9581_3411522ca5c1",
-	"file_version": 2,
+	"file_uuid": "55461c2c_8d5b_4c57_bacb_36803a05a456",
+	"file_version": 4,
 	"cache_content": {
 		"children": [
 			{
@@ -30,7 +30,7 @@
 								"noise_type": "deep_ocean"
 							},
 							"minecraft:surface_parameters": {
-								"sea_floor_depth": 12,
+								"sea_floor_depth": 10,
 								"sea_floor_material": "lumidep:black_sand",
 								"foundation_material": "lumidep:abyssal_stone",
 								"mid_material": "minecraft:water",
@@ -40,7 +40,7 @@
 							"minecraft:overworld_generation_rules": {
 								"generate_for_climates": [
 									[
-										"cold",
+										"warm",
 										1
 									]
 								]
@@ -73,7 +73,7 @@
 									"noise_type": "deep_ocean"
 								},
 								"minecraft:surface_parameters": {
-									"sea_floor_depth": 12,
+									"sea_floor_depth": 10,
 									"sea_floor_material": "lumidep:black_sand",
 									"foundation_material": "lumidep:abyssal_stone",
 									"mid_material": "minecraft:water",
@@ -83,7 +83,7 @@
 								"minecraft:overworld_generation_rules": {
 									"generate_for_climates": [
 										[
-											"cold",
+											"warm",
 											1
 										]
 									]
@@ -119,7 +119,7 @@
 									"noise_type": "deep_ocean"
 								},
 								"minecraft:surface_parameters": {
-									"sea_floor_depth": 12,
+									"sea_floor_depth": 10,
 									"sea_floor_material": "lumidep:black_sand",
 									"foundation_material": "lumidep:abyssal_stone",
 									"mid_material": "minecraft:water",
@@ -129,7 +129,7 @@
 								"minecraft:overworld_generation_rules": {
 									"generate_for_climates": [
 										[
-											"cold",
+											"warm",
 											1
 										]
 									]
@@ -156,40 +156,6 @@
 								}
 							},
 							{
-								"open": {
-									"minecraft:climate": {
-										"downfall": 0.5,
-										"snow_accumulation": [
-											0,
-											0.125
-										],
-										"temperature": 0.5
-									},
-									"minecraft:overworld_height": {
-										"noise_type": "deep_ocean"
-									},
-									"minecraft:surface_parameters": {
-										"sea_floor_depth": 12,
-										"sea_floor_material": "lumidep:black_sand",
-										"foundation_material": "lumidep:abyssal_stone",
-										"mid_material": "minecraft:water",
-										"top_material": "minecraft:water",
-										"sea_material": "minecraft:water"
-									},
-									"minecraft:overworld_generation_rules": {
-										"generate_for_climates": [
-											[
-												"cold",
-												1
-											]
-										]
-									},
-									"volcanic": {},
-									"deep": {},
-									"monster": {},
-									"ocean": {},
-									"overworld": {}
-								},
 								"key": "minecraft:overworld_height",
 								"is_minified": true,
 								"children": {
@@ -210,7 +176,7 @@
 										"noise_type": "deep_ocean"
 									},
 									"minecraft:surface_parameters": {
-										"sea_floor_depth": 12,
+										"sea_floor_depth": 10,
 										"sea_floor_material": "lumidep:black_sand",
 										"foundation_material": "lumidep:abyssal_stone",
 										"mid_material": "minecraft:water",
@@ -220,7 +186,7 @@
 									"minecraft:overworld_generation_rules": {
 										"generate_for_climates": [
 											[
-												"cold",
+												"warm",
 												1
 											]
 										]
@@ -234,7 +200,7 @@
 								"key": "minecraft:surface_parameters",
 								"is_minified": true,
 								"children": {
-									"sea_floor_depth": 12,
+									"sea_floor_depth": 10,
 									"sea_floor_material": "lumidep:black_sand",
 									"foundation_material": "lumidep:abyssal_stone",
 									"mid_material": "minecraft:water",
@@ -243,16 +209,69 @@
 								}
 							},
 							{
-								"key": "minecraft:overworld_generation_rules",
-								"is_minified": true,
-								"children": {
-									"generate_for_climates": [
-										[
-											"cold",
-											1
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0.5,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 0.5
+									},
+									"minecraft:overworld_height": {
+										"noise_type": "deep_ocean"
+									},
+									"minecraft:surface_parameters": {
+										"sea_floor_depth": 10,
+										"sea_floor_material": "lumidep:black_sand",
+										"foundation_material": "lumidep:abyssal_stone",
+										"mid_material": "minecraft:water",
+										"top_material": "minecraft:water",
+										"sea_material": "minecraft:water"
+									},
+									"minecraft:overworld_generation_rules": {
+										"generate_for_climates": [
+											[
+												"warm",
+												1
+											]
 										]
-									]
-								}
+									},
+									"volcanic": {},
+									"deep": {},
+									"monster": {},
+									"ocean": {},
+									"overworld": {}
+								},
+								"key": "minecraft:overworld_generation_rules",
+								"children": [
+									{
+										"open": {
+											"generate_for_climates": [
+												[
+													"warm",
+													1
+												]
+											]
+										},
+										"key": "generate_for_climates",
+										"children": [
+											{
+												"open": [
+													[
+														"warm",
+														1
+													]
+												],
+												"is_minified": true,
+												"children": [
+													"warm",
+													1
+												]
+											}
+										]
+									}
+								]
 							},
 							{
 								"key": "volcanic",

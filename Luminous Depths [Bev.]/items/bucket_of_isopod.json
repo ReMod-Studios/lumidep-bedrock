@@ -1,0 +1,54 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "lumidep:bucket_of_isopod",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:use_duration": 1.6,
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:foil": false,
+			"minecraft:block_placer": {
+				"block": "minecraft:water"
+			},
+			"minecraft:entity_placer": {
+				"entity": "lumidep:isopod"
+			},
+			"minecraft:on_use_on": {
+				"on_use_on": {
+					"event": "on_use_on"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "bucket_of_isopod"
+			},
+			"minecraft:render_offsets": "buckets",
+			"minecraft:display_name": {
+				"value": "Bucket of Isopod"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.buckets"
+			}
+		},
+		"events": {
+			"on_use_on": {
+				"sequence": [
+					{
+						"decrement_stack": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"give @s bucket"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

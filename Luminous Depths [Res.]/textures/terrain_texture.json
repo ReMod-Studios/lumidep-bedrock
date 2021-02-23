@@ -1,16 +1,38 @@
-//bridge-file-version: #0
+//bridge-file-version: #3
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.terrain",
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
-		"abyss_stone": {
-			"textures": "textures/blocks/abyss_stone"
-		},
 		"black_sand": {
 			"textures": [
 				"textures/blocks/black_sand"
+			]
+		},
+		"abyss_stone": {
+			"textures": [
+				"textures/blocks/abyssal_stone"
+			]
+		},
+		"abyss_bricks": {
+			"textures": [
+				"textures/blocks/abyssal_brick"
+			]
+		},
+		"abyss_bricks_carved": {
+			"textures": [
+				"textures/blocks/abyssal_brick_carved"
+			]
+		},
+		"abyss_bricks_cracked": {
+			"textures": [
+				"textures/blocks/abyssal_brick_cracked"
+			]
+		},
+		"abyss_bricks_mossy": {
+			"textures": [
+				"textures/blocks/abyssal_brick_mossy"
 			]
 		}
 	}

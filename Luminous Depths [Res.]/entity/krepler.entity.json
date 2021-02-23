@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -8,13 +8,14 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/krepler"
+				"default": "textures/entity/krepler/krepler",
+				"volcanic": "textures/entity/krepler/krepler_volcanic"
 			},
 			"geometry": {
 				"default": "geometry.krepler_adult"
 			},
 			"render_controllers": [
-				"controller.render.default"
+				"controller.render.krepler"
 			],
 			"spawn_egg": {
 				"base_color": "#328500",

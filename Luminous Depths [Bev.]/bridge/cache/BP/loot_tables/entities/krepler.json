@@ -2,8 +2,8 @@
 	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\loot_tables\\entities\\krepler.json",
 	"file_type": "loot_table",
 	"format_version": 1,
-	"file_uuid": "5d71b708_ba63_42e1_b4f8_109cc212eb5c",
-	"file_version": 2,
+	"file_uuid": "7e792fbd_046e_44ea_a210_0c517a63e904",
+	"file_version": 3,
 	"cache_content": {
 		"children": [
 			{
@@ -20,6 +20,25 @@
 										{
 											"function": "set_count",
 											"count": 1
+										},
+										{
+											"function": "furnace_smelt",
+											"conditions": [
+												{
+													"condition": "entity_properties",
+													"entity": "this",
+													"properties": {
+														"on_fire": true
+													}
+												}
+											]
+										},
+										{
+											"function": "looting_enchant",
+											"count": {
+												"min": 0,
+												"max": 1
+											}
 										}
 									]
 								}
@@ -42,6 +61,25 @@
 											{
 												"function": "set_count",
 												"count": 1
+											},
+											{
+												"function": "furnace_smelt",
+												"conditions": [
+													{
+														"condition": "entity_properties",
+														"entity": "this",
+														"properties": {
+															"on_fire": true
+														}
+													}
+												]
+											},
+											{
+												"function": "looting_enchant",
+												"count": {
+													"min": 0,
+													"max": 1
+												}
 											}
 										]
 									}
@@ -65,6 +103,25 @@
 												{
 													"function": "set_count",
 													"count": 1
+												},
+												{
+													"function": "furnace_smelt",
+													"conditions": [
+														{
+															"condition": "entity_properties",
+															"entity": "this",
+															"properties": {
+																"on_fire": true
+															}
+														}
+													]
+												},
+												{
+													"function": "looting_enchant",
+													"count": {
+														"min": 0,
+														"max": 1
+													}
 												}
 											]
 										}
@@ -82,6 +139,25 @@
 													{
 														"function": "set_count",
 														"count": 1
+													},
+													{
+														"function": "furnace_smelt",
+														"conditions": [
+															{
+																"condition": "entity_properties",
+																"entity": "this",
+																"properties": {
+																	"on_fire": true
+																}
+															}
+														]
+													},
+													{
+														"function": "looting_enchant",
+														"count": {
+															"min": 0,
+															"max": 1
+														}
 													}
 												]
 											}
@@ -108,6 +184,25 @@
 														{
 															"function": "set_count",
 															"count": 1
+														},
+														{
+															"function": "furnace_smelt",
+															"conditions": [
+																{
+																	"condition": "entity_properties",
+																	"entity": "this",
+																	"properties": {
+																		"on_fire": true
+																	}
+																}
+															]
+														},
+														{
+															"function": "looting_enchant",
+															"count": {
+																"min": 0,
+																"max": 1
+															}
 														}
 													]
 												},
@@ -118,6 +213,25 @@
 															{
 																"function": "set_count",
 																"count": 1
+															},
+															{
+																"function": "furnace_smelt",
+																"conditions": [
+																	{
+																		"condition": "entity_properties",
+																		"entity": "this",
+																		"properties": {
+																			"on_fire": true
+																		}
+																	}
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
 															}
 														],
 														"is_minified": true,
@@ -125,6 +239,139 @@
 															"function": "set_count",
 															"count": 1
 														}
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": 1
+															},
+															{
+																"function": "furnace_smelt",
+																"conditions": [
+																	{
+																		"condition": "entity_properties",
+																		"entity": "this",
+																		"properties": {
+																			"on_fire": true
+																		}
+																	}
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "furnace_smelt",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "furnace_smelt",
+																	"conditions": [
+																		{
+																			"condition": "entity_properties",
+																			"entity": "this",
+																			"properties": {
+																				"on_fire": true
+																			}
+																		}
+																	]
+																},
+																"key": "conditions",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"condition": "entity_properties",
+																				"entity": "this",
+																				"properties": {
+																					"on_fire": true
+																				}
+																			}
+																		],
+																		"children": [
+																			{
+																				"data": "entity_properties",
+																				"key": "condition"
+																			},
+																			{
+																				"data": "this",
+																				"key": "entity"
+																			},
+																			{
+																				"open": {
+																					"condition": "entity_properties",
+																					"entity": "this",
+																					"properties": {
+																						"on_fire": true
+																					}
+																				},
+																				"key": "properties",
+																				"is_minified": true,
+																				"children": {
+																					"on_fire": true
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													},
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": 1
+															},
+															{
+																"function": "furnace_smelt",
+																"conditions": [
+																	{
+																		"condition": "entity_properties",
+																		"entity": "this",
+																		"properties": {
+																			"on_fire": true
+																		}
+																	}
+																]
+															},
+															{
+																"function": "looting_enchant",
+																"count": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "looting_enchant",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "looting_enchant",
+																	"count": {
+																		"min": 0,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 0,
+																	"max": 1
+																}
+															}
+														]
 													}
 												]
 											}

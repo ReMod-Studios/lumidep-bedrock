@@ -3,7 +3,7 @@
 	"file_type": "terrain_texture",
 	"format_version": 1,
 	"file_uuid": "835962b2_b38e_4366_8786_46ed716a4f03",
-	"file_version": 0,
+	"file_version": 3,
 	"cache_content": {
 		"children": [
 			{
@@ -29,12 +29,34 @@
 					"padding": 8,
 					"num_mip_levels": 4,
 					"texture_data": {
-						"abyss_stone": {
-							"textures": "textures/blocks/abyss_stone"
-						},
 						"black_sand": {
 							"textures": [
 								"textures/blocks/black_sand"
+							]
+						},
+						"abyss_stone": {
+							"textures": [
+								"textures/blocks/abyssal_stone"
+							]
+						},
+						"abyss_bricks": {
+							"textures": [
+								"textures/blocks/abyssal_brick"
+							]
+						},
+						"abyss_bricks_carved": {
+							"textures": [
+								"textures/blocks/abyssal_brick_carved"
+							]
+						},
+						"abyss_bricks_cracked": {
+							"textures": [
+								"textures/blocks/abyssal_brick_cracked"
+							]
+						},
+						"abyss_bricks_mossy": {
+							"textures": [
+								"textures/blocks/abyssal_brick_mossy"
 							]
 						}
 					}
@@ -43,29 +65,34 @@
 				"children": [
 					{
 						"open": {
-							"abyss_stone": {
-								"textures": "textures/blocks/abyss_stone"
-							},
 							"black_sand": {
 								"textures": [
 									"textures/blocks/black_sand"
 								]
-							}
-						},
-						"key": "abyss_stone",
-						"is_minified": true,
-						"children": {
-							"textures": "textures/blocks/abyss_stone"
-						}
-					},
-					{
-						"open": {
-							"abyss_stone": {
-								"textures": "textures/blocks/abyss_stone"
 							},
-							"black_sand": {
+							"abyss_stone": {
 								"textures": [
-									"textures/blocks/black_sand"
+									"textures/blocks/abyssal_stone"
+								]
+							},
+							"abyss_bricks": {
+								"textures": [
+									"textures/blocks/abyssal_brick"
+								]
+							},
+							"abyss_bricks_carved": {
+								"textures": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							},
+							"abyss_bricks_cracked": {
+								"textures": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							},
+							"abyss_bricks_mossy": {
+								"textures": [
+									"textures/blocks/abyssal_brick_mossy"
 								]
 							}
 						},
@@ -81,6 +108,251 @@
 								"is_minified": true,
 								"children": [
 									"textures/blocks/black_sand"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"black_sand": {
+								"textures": [
+									"textures/blocks/black_sand"
+								]
+							},
+							"abyss_stone": {
+								"textures": [
+									"textures/blocks/abyssal_stone"
+								]
+							},
+							"abyss_bricks": {
+								"textures": [
+									"textures/blocks/abyssal_brick"
+								]
+							},
+							"abyss_bricks_carved": {
+								"textures": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							},
+							"abyss_bricks_cracked": {
+								"textures": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							},
+							"abyss_bricks_mossy": {
+								"textures": [
+									"textures/blocks/abyssal_brick_mossy"
+								]
+							}
+						},
+						"key": "abyss_stone",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/abyssal_stone"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/abyssal_stone"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"black_sand": {
+								"textures": [
+									"textures/blocks/black_sand"
+								]
+							},
+							"abyss_stone": {
+								"textures": [
+									"textures/blocks/abyssal_stone"
+								]
+							},
+							"abyss_bricks": {
+								"textures": [
+									"textures/blocks/abyssal_brick"
+								]
+							},
+							"abyss_bricks_carved": {
+								"textures": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							},
+							"abyss_bricks_cracked": {
+								"textures": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							},
+							"abyss_bricks_mossy": {
+								"textures": [
+									"textures/blocks/abyssal_brick_mossy"
+								]
+							}
+						},
+						"key": "abyss_bricks",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/abyssal_brick"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/abyssal_brick"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"black_sand": {
+								"textures": [
+									"textures/blocks/black_sand"
+								]
+							},
+							"abyss_stone": {
+								"textures": [
+									"textures/blocks/abyssal_stone"
+								]
+							},
+							"abyss_bricks": {
+								"textures": [
+									"textures/blocks/abyssal_brick"
+								]
+							},
+							"abyss_bricks_carved": {
+								"textures": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							},
+							"abyss_bricks_cracked": {
+								"textures": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							},
+							"abyss_bricks_mossy": {
+								"textures": [
+									"textures/blocks/abyssal_brick_mossy"
+								]
+							}
+						},
+						"key": "abyss_bricks_carved",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/abyssal_brick_carved"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"black_sand": {
+								"textures": [
+									"textures/blocks/black_sand"
+								]
+							},
+							"abyss_stone": {
+								"textures": [
+									"textures/blocks/abyssal_stone"
+								]
+							},
+							"abyss_bricks": {
+								"textures": [
+									"textures/blocks/abyssal_brick"
+								]
+							},
+							"abyss_bricks_carved": {
+								"textures": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							},
+							"abyss_bricks_cracked": {
+								"textures": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							},
+							"abyss_bricks_mossy": {
+								"textures": [
+									"textures/blocks/abyssal_brick_mossy"
+								]
+							}
+						},
+						"key": "abyss_bricks_cracked",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/abyssal_brick_cracked"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"black_sand": {
+								"textures": [
+									"textures/blocks/black_sand"
+								]
+							},
+							"abyss_stone": {
+								"textures": [
+									"textures/blocks/abyssal_stone"
+								]
+							},
+							"abyss_bricks": {
+								"textures": [
+									"textures/blocks/abyssal_brick"
+								]
+							},
+							"abyss_bricks_carved": {
+								"textures": [
+									"textures/blocks/abyssal_brick_carved"
+								]
+							},
+							"abyss_bricks_cracked": {
+								"textures": [
+									"textures/blocks/abyssal_brick_cracked"
+								]
+							},
+							"abyss_bricks_mossy": {
+								"textures": [
+									"textures/blocks/abyssal_brick_mossy"
+								]
+							}
+						},
+						"key": "abyss_bricks_mossy",
+						"children": [
+							{
+								"open": {
+									"textures": [
+										"textures/blocks/abyssal_brick_mossy"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": [
+									"textures/blocks/abyssal_brick_mossy"
 								]
 							}
 						]

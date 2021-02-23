@@ -1,4 +1,4 @@
-//bridge-file-version: #4
+//bridge-file-version: #5
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -31,6 +31,16 @@
 		"krepler_leg_cooked": {
 			"textures": [
 				"textures/items/krepler_leg_cooked"
+			]
+		},
+		"bucket_of_isopod": {
+			"textures": [
+				"textures/items/bucket_of_isopod"
+			]
+		},
+		"bucket_of_anglerfish": {
+			"textures": [
+				"textures/items/bucket_of_anglerfish"
 			]
 		}
 	}

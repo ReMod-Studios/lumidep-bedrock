@@ -1,7 +1,14 @@
-##bridge-file-version: #8
+##bridge-file-version: #17
 pack.name=Luminous Depths §1[Res.]
 pack.description=A Project that brings in a whole new level of depth to Minecraft's oceans, (pun intended), from creatures such as anglerfish to giant isopods, new blocks, and strange structures.
 
+## BLOCKS
+tile.lumidep:abyssal_stone.name=Abyssal Stone
+tile.lumidep:abyssal_bricks.name=Abyssal Bricks
+tile.lumidep:carved_abyssal_bricks.name=Carved Abyssal Bricks
+tile.lumidep:cracked_abyssal_bricks.name=Cracked Abyssal Bricks
+tile.lumidep:mossy_abyssal_bricks.name=Mossy Abyssal Bricks
+tile.lumidep:black_sand.name=Black Sand
 
 ## ENTITIES
 entity.lumidep:goblin_shark.name=Goblin Shark
@@ -18,3 +25,7 @@ item.spawn_egg.entity.lumidep:anglerfish.name=Spawn Anglerfish
 item.spawn_egg.entity.lumidep:isopod.name=Spawn Isopod
 item.spawn_egg.entity.lumidep:gorgebeast.name=Spawn Gorgebeast
 item.spawn_egg.entity.lumidep:krepler.name=Spawn Krepler
+
+## MISC
+action.hint.exit.lumidep:krepler=Sneak to Escape the Krepler!
+action.hint.exit.lumidep:gorgebeast=Sneak to Escape the Gorgebeast!

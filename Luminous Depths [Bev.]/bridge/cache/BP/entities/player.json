@@ -2,17 +2,17 @@
 	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Luminous Depths [Bev.]\\entities\\player.json",
 	"file_type": "entity",
 	"format_version": 1,
-	"file_uuid": "9281d591_410e_4f02_a013_8c85a0dc6919",
-	"file_version": 4,
+	"file_uuid": "63963072_f09e_43a2_aca8_f94d3f3600e6",
+	"file_version": 2,
 	"cache_content": {
 		"children": [
 			{
-				"data": "1.16.0",
+				"data": "1.16.100",
 				"key": "format_version"
 			},
 			{
 				"open": {
-					"format_version": "1.16.0",
+					"format_version": "1.16.100",
 					"minecraft:entity": {
 						"description": {
 							"identifier": "minecraft:player",
@@ -111,6 +111,24 @@
 										},
 										"cause": "lava",
 										"damage_per_tick": 4
+									},
+									{
+										"filters": {
+											"all_of": [
+												{
+													"test": "is_family",
+													"subject": "other",
+													"operator": "equals",
+													"value": "krepler"
+												},
+												{
+													"test": "is_riding",
+													"subject": "self",
+													"value": true
+												}
+											]
+										},
+										"damage_per_tick": 2
 									}
 								]
 							},
@@ -289,6 +307,69 @@
 						}
 					},
 					{
+						"key": "component_groups",
+						"is_minified": true,
+						"children": {
+							"minecraft:add_bad_omen": {
+								"minecraft:spell_effects": {
+									"add_effects": [
+										{
+											"effect": "bad_omen",
+											"duration": 6000,
+											"display_on_screen_animation": true
+										}
+									]
+								},
+								"minecraft:timer": {
+									"time": [
+										0,
+										0
+									],
+									"looping": false,
+									"time_down_event": {
+										"event": "minecraft:clear_add_bad_omen",
+										"target": "self"
+									}
+								}
+							},
+							"minecraft:clear_bad_omen_spell_effect": {
+								"minecraft:spell_effects": {}
+							},
+							"minecraft:raid_trigger": {
+								"minecraft:raid_trigger": {
+									"triggered_event": {
+										"event": "minecraft:remove_raid_trigger",
+										"target": "self"
+									}
+								},
+								"minecraft:spell_effects": {
+									"remove_effects": "bad_omen"
+								}
+							},
+							"lumidep:helmet_on": {
+								"minecraft:spell_effects": {
+									"add_effects": [
+										{
+											"effect": "conduit_power",
+											"duration": 1000000,
+											"amplifier": 0,
+											"visible": false,
+											"ambient": false,
+											"display_on_screen_animation": false
+										}
+									]
+								}
+							},
+							"lumidep:helmet_off": {
+								"minecraft:spell_effects": {
+									"remove_effects": [
+										"conduit_power"
+									]
+								}
+							}
+						}
+					},
+					{
 						"open": {
 							"description": {
 								"identifier": "minecraft:player",
@@ -387,6 +468,24 @@
 											},
 											"cause": "lava",
 											"damage_per_tick": 4
+										},
+										{
+											"filters": {
+												"all_of": [
+													{
+														"test": "is_family",
+														"subject": "other",
+														"operator": "equals",
+														"value": "krepler"
+													},
+													{
+														"test": "is_riding",
+														"subject": "self",
+														"value": true
+													}
+												]
+											},
+											"damage_per_tick": 2
 										}
 									]
 								},
@@ -551,312 +650,564 @@
 								}
 							}
 						},
-						"key": "component_groups",
+						"key": "components",
 						"children": [
 							{
-								"key": "minecraft:add_bad_omen",
+								"key": "minecraft:experience_reward",
 								"is_minified": true,
 								"children": {
-									"minecraft:spell_effects": {
-										"add_effects": [
-											{
-												"effect": "bad_omen",
-												"duration": 6000,
-												"display_on_screen_animation": true
-											}
-										]
-									},
-									"minecraft:timer": {
-										"time": [
-											0,
-											0
-										],
-										"looping": false,
-										"time_down_event": {
-											"event": "minecraft:clear_add_bad_omen",
-											"target": "self"
-										}
-									}
+									"on_death": "Math.Min(query.player_level * 7, 100)"
 								}
 							},
 							{
-								"key": "minecraft:clear_bad_omen_spell_effect",
+								"key": "minecraft:type_family",
 								"is_minified": true,
 								"children": {
-									"minecraft:spell_effects": {}
+									"family": [
+										"player"
+									]
 								}
 							},
 							{
-								"key": "minecraft:raid_trigger",
+								"key": "minecraft:is_hidden_when_invisible",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:loot",
 								"is_minified": true,
 								"children": {
-									"minecraft:raid_trigger": {
-										"triggered_event": {
-											"event": "minecraft:remove_raid_trigger",
-											"target": "self"
-										}
-									},
-									"minecraft:spell_effects": {
-										"remove_effects": "bad_omen"
-									}
+									"table": "loot_tables/empty.json"
 								}
 							},
 							{
-								"key": "lumidep:helmet_on",
+								"key": "minecraft:collision_box",
 								"is_minified": true,
 								"children": {
-									"minecraft:spell_effects": {
-										"add_effects": [
-											{
-												"effect": "conduit_power",
-												"duration": 1000000,
-												"amplifier": 0,
-												"visible": false,
-												"ambient": false,
-												"display_on_screen_animation": false
-											}
-										]
-									}
+									"width": 0.6,
+									"height": 1.8
+								}
+							},
+							{
+								"key": "minecraft:can_climb",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.1
 								}
 							},
 							{
 								"open": {
-									"minecraft:add_bad_omen": {
-										"minecraft:spell_effects": {
-											"add_effects": [
-												{
-													"effect": "bad_omen",
-													"duration": 6000,
-													"display_on_screen_animation": true
-												}
-											]
-										},
-										"minecraft:timer": {
-											"time": [
-												0,
-												0
-											],
-											"looping": false,
-											"time_down_event": {
-												"event": "minecraft:clear_add_bad_omen",
-												"target": "self"
+									"minecraft:experience_reward": {
+										"on_death": "Math.Min(query.player_level * 7, 100)"
+									},
+									"minecraft:type_family": {
+										"family": [
+											"player"
+										]
+									},
+									"minecraft:is_hidden_when_invisible": {},
+									"minecraft:loot": {
+										"table": "loot_tables/empty.json"
+									},
+									"minecraft:collision_box": {
+										"width": 0.6,
+										"height": 1.8
+									},
+									"minecraft:can_climb": {},
+									"minecraft:movement": {
+										"value": 0.1
+									},
+									"minecraft:hurt_on_condition": {
+										"damage_conditions": [
+											{
+												"filters": {
+													"test": "in_lava",
+													"subject": "self",
+													"operator": "==",
+													"value": true
+												},
+												"cause": "lava",
+												"damage_per_tick": 4
+											},
+											{
+												"filters": {
+													"all_of": [
+														{
+															"test": "is_family",
+															"subject": "other",
+															"operator": "equals",
+															"value": "krepler"
+														},
+														{
+															"test": "is_riding",
+															"subject": "self",
+															"value": true
+														}
+													]
+												},
+												"damage_per_tick": 2
 											}
-										}
+										]
 									},
-									"minecraft:clear_bad_omen_spell_effect": {
-										"minecraft:spell_effects": {}
+									"minecraft:attack": {
+										"damage": 1
 									},
-									"minecraft:raid_trigger": {
-										"minecraft:raid_trigger": {
-											"triggered_event": {
-												"event": "minecraft:remove_raid_trigger",
-												"target": "self"
+									"minecraft:player.saturation": {
+										"value": 20
+									},
+									"minecraft:player.exhaustion": {
+										"value": 0,
+										"max": 4
+									},
+									"minecraft:player.level": {
+										"value": 0,
+										"max": 24791
+									},
+									"minecraft:player.experience": {
+										"value": 0,
+										"max": 1
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": -1,
+										"inhale_time": 3.75,
+										"generates_bubbles": false
+									},
+									"minecraft:nameable": {
+										"always_show": true,
+										"allow_name_tag_renaming": false
+									},
+									"minecraft:physics": {},
+									"minecraft:pushable": {
+										"is_pushable": false,
+										"is_pushable_by_piston": true
+									},
+									"minecraft:insomnia": {
+										"days_until_insomnia": 3
+									},
+									"minecraft:rideable": {
+										"seat_count": 2,
+										"family_types": [
+											"parrot_tame"
+										],
+										"pull_in_entities": true,
+										"seats": [
+											{
+												"position": [
+													0.4,
+													-0.2,
+													-0.1
+												],
+												"min_rider_count": 0,
+												"max_rider_count": 0,
+												"lock_rider_rotation": 0
+											},
+											{
+												"position": [
+													-0.4,
+													-0.2,
+													-0.1
+												],
+												"min_rider_count": 1,
+												"max_rider_count": 2,
+												"lock_rider_rotation": 0
 											}
-										},
-										"minecraft:spell_effects": {
-											"remove_effects": "bad_omen"
-										}
+										]
 									},
-									"lumidep:helmet_on": {
-										"minecraft:spell_effects": {
-											"add_effects": [
-												{
-													"effect": "conduit_power",
-													"duration": 1000000,
-													"amplifier": 0,
-													"visible": false,
-													"ambient": false,
-													"display_on_screen_animation": false
-												}
-											]
-										}
-									},
-									"lumidep:helmet_off": {
-										"minecraft:spell_effects": {
-											"remove_effects": [
-												"conduit_power"
-											]
-										}
+									"minecraft:conditional_bandwidth_optimization": {},
+									"minecraft:scaffolding_climber": {},
+									"minecraft:environment_sensor": {
+										"triggers": [
+											{
+												"event": "minecraft:trigger_raid",
+												"filters": {
+													"all_of": [
+														{
+															"test": "has_mob_effect",
+															"subject": "self",
+															"value": "bad_omen"
+														},
+														{
+															"test": "is_in_village",
+															"subject": "self",
+															"value": true
+														}
+													]
+												},
+												"target": "self"
+											},
+											{
+												"filters": {
+													"test": "has_equipment",
+													"subject": "self",
+													"operator": "equals",
+													"domain": "head",
+													"value": "lumidep:diving_helmet"
+												},
+												"event": "lumidep:helmet_on"
+											},
+											{
+												"filters": {
+													"test": "has_equipment",
+													"subject": "self",
+													"operator": "not",
+													"domain": "head",
+													"value": "lumidep:diving_helmet"
+												},
+												"event": "lumidep:helmet_off"
+											}
+										]
 									}
 								},
-								"key": "lumidep:helmet_off",
+								"key": "minecraft:hurt_on_condition",
 								"children": [
 									{
 										"open": {
-											"minecraft:spell_effects": {
-												"remove_effects": [
-													"conduit_power"
-												]
-											}
+											"damage_conditions": [
+												{
+													"filters": {
+														"test": "in_lava",
+														"subject": "self",
+														"operator": "==",
+														"value": true
+													},
+													"cause": "lava",
+													"damage_per_tick": 4
+												},
+												{
+													"filters": {
+														"all_of": [
+															{
+																"test": "is_family",
+																"subject": "other",
+																"operator": "equals",
+																"value": "krepler"
+															},
+															{
+																"test": "is_riding",
+																"subject": "self",
+																"value": true
+															}
+														]
+													},
+													"damage_per_tick": 2
+												}
+											]
 										},
-										"key": "minecraft:spell_effects",
+										"key": "damage_conditions",
 										"children": [
 											{
-												"open": {
-													"remove_effects": [
-														"conduit_power"
-													]
-												},
-												"key": "remove_effects",
 												"is_minified": true,
+												"children": {
+													"filters": {
+														"test": "in_lava",
+														"subject": "self",
+														"operator": "==",
+														"value": true
+													},
+													"cause": "lava",
+													"damage_per_tick": 4
+												}
+											},
+											{
+												"open": [
+													{
+														"filters": {
+															"test": "in_lava",
+															"subject": "self",
+															"operator": "==",
+															"value": true
+														},
+														"cause": "lava",
+														"damage_per_tick": 4
+													},
+													{
+														"filters": {
+															"all_of": [
+																{
+																	"test": "is_family",
+																	"subject": "other",
+																	"operator": "equals",
+																	"value": "krepler"
+																},
+																{
+																	"test": "is_riding",
+																	"subject": "self",
+																	"value": true
+																}
+															]
+														},
+														"damage_per_tick": 2
+													}
+												],
 												"children": [
-													"conduit_power"
+													{
+														"open": {
+															"filters": {
+																"all_of": [
+																	{
+																		"test": "is_family",
+																		"subject": "other",
+																		"operator": "equals",
+																		"value": "krepler"
+																	},
+																	{
+																		"test": "is_riding",
+																		"subject": "self",
+																		"value": true
+																	}
+																]
+															},
+															"damage_per_tick": 2
+														},
+														"key": "filters",
+														"children": [
+															{
+																"open": {
+																	"all_of": [
+																		{
+																			"test": "is_family",
+																			"subject": "other",
+																			"operator": "equals",
+																			"value": "krepler"
+																		},
+																		{
+																			"test": "is_riding",
+																			"subject": "self",
+																			"value": true
+																		}
+																	]
+																},
+																"key": "all_of",
+																"children": [
+																	{
+																		"open": [
+																			{
+																				"test": "is_family",
+																				"subject": "other",
+																				"operator": "equals",
+																				"value": "krepler"
+																			},
+																			{
+																				"test": "is_riding",
+																				"subject": "self",
+																				"value": true
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"test": "is_family",
+																			"subject": "other",
+																			"operator": "equals",
+																			"value": "krepler"
+																		}
+																	},
+																	{
+																		"open": [
+																			{
+																				"test": "is_family",
+																				"subject": "other",
+																				"operator": "equals",
+																				"value": "krepler"
+																			},
+																			{
+																				"test": "is_riding",
+																				"subject": "self",
+																				"value": true
+																			}
+																		],
+																		"is_minified": true,
+																		"children": {
+																			"test": "is_riding",
+																			"subject": "self",
+																			"value": true
+																		}
+																	}
+																]
+															}
+														]
+													},
+													{
+														"data": "2",
+														"key": "damage_per_tick"
+													}
 												]
 											}
 										]
 									}
 								]
+							},
+							{
+								"key": "minecraft:attack",
+								"is_minified": true,
+								"children": {
+									"damage": 1
+								}
+							},
+							{
+								"key": "minecraft:player.saturation",
+								"is_minified": true,
+								"children": {
+									"value": 20
+								}
+							},
+							{
+								"key": "minecraft:player.exhaustion",
+								"is_minified": true,
+								"children": {
+									"value": 0,
+									"max": 4
+								}
+							},
+							{
+								"key": "minecraft:player.level",
+								"is_minified": true,
+								"children": {
+									"value": 0,
+									"max": 24791
+								}
+							},
+							{
+								"key": "minecraft:player.experience",
+								"is_minified": true,
+								"children": {
+									"value": 0,
+									"max": 1
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": -1,
+									"inhale_time": 3.75,
+									"generates_bubbles": false
+								}
+							},
+							{
+								"key": "minecraft:nameable",
+								"is_minified": true,
+								"children": {
+									"always_show": true,
+									"allow_name_tag_renaming": false
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false,
+									"is_pushable_by_piston": true
+								}
+							},
+							{
+								"key": "minecraft:insomnia",
+								"is_minified": true,
+								"children": {
+									"days_until_insomnia": 3
+								}
+							},
+							{
+								"key": "minecraft:rideable",
+								"is_minified": true,
+								"children": {
+									"seat_count": 2,
+									"family_types": [
+										"parrot_tame"
+									],
+									"pull_in_entities": true,
+									"seats": [
+										{
+											"position": [
+												0.4,
+												-0.2,
+												-0.1
+											],
+											"min_rider_count": 0,
+											"max_rider_count": 0,
+											"lock_rider_rotation": 0
+										},
+										{
+											"position": [
+												-0.4,
+												-0.2,
+												-0.1
+											],
+											"min_rider_count": 1,
+											"max_rider_count": 2,
+											"lock_rider_rotation": 0
+										}
+									]
+								}
+							},
+							{
+								"key": "minecraft:conditional_bandwidth_optimization",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:scaffolding_climber",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:environment_sensor",
+								"is_minified": true,
+								"children": {
+									"triggers": [
+										{
+											"event": "minecraft:trigger_raid",
+											"filters": {
+												"all_of": [
+													{
+														"test": "has_mob_effect",
+														"subject": "self",
+														"value": "bad_omen"
+													},
+													{
+														"test": "is_in_village",
+														"subject": "self",
+														"value": true
+													}
+												]
+											},
+											"target": "self"
+										},
+										{
+											"filters": {
+												"test": "has_equipment",
+												"subject": "self",
+												"operator": "equals",
+												"domain": "head",
+												"value": "lumidep:diving_helmet"
+											},
+											"event": "lumidep:helmet_on"
+										},
+										{
+											"filters": {
+												"test": "has_equipment",
+												"subject": "self",
+												"operator": "not",
+												"domain": "head",
+												"value": "lumidep:diving_helmet"
+											},
+											"event": "lumidep:helmet_off"
+										}
+									]
+								}
 							}
 						]
-					},
-					{
-						"key": "components",
-						"is_minified": true,
-						"children": {
-							"minecraft:experience_reward": {
-								"on_death": "Math.Min(query.player_level * 7, 100)"
-							},
-							"minecraft:type_family": {
-								"family": [
-									"player"
-								]
-							},
-							"minecraft:is_hidden_when_invisible": {},
-							"minecraft:loot": {
-								"table": "loot_tables/empty.json"
-							},
-							"minecraft:collision_box": {
-								"width": 0.6,
-								"height": 1.8
-							},
-							"minecraft:can_climb": {},
-							"minecraft:movement": {
-								"value": 0.1
-							},
-							"minecraft:hurt_on_condition": {
-								"damage_conditions": [
-									{
-										"filters": {
-											"test": "in_lava",
-											"subject": "self",
-											"operator": "==",
-											"value": true
-										},
-										"cause": "lava",
-										"damage_per_tick": 4
-									}
-								]
-							},
-							"minecraft:attack": {
-								"damage": 1
-							},
-							"minecraft:player.saturation": {
-								"value": 20
-							},
-							"minecraft:player.exhaustion": {
-								"value": 0,
-								"max": 4
-							},
-							"minecraft:player.level": {
-								"value": 0,
-								"max": 24791
-							},
-							"minecraft:player.experience": {
-								"value": 0,
-								"max": 1
-							},
-							"minecraft:breathable": {
-								"total_supply": 15,
-								"suffocate_time": -1,
-								"inhale_time": 3.75,
-								"generates_bubbles": false
-							},
-							"minecraft:nameable": {
-								"always_show": true,
-								"allow_name_tag_renaming": false
-							},
-							"minecraft:physics": {},
-							"minecraft:pushable": {
-								"is_pushable": false,
-								"is_pushable_by_piston": true
-							},
-							"minecraft:insomnia": {
-								"days_until_insomnia": 3
-							},
-							"minecraft:rideable": {
-								"seat_count": 2,
-								"family_types": [
-									"parrot_tame"
-								],
-								"pull_in_entities": true,
-								"seats": [
-									{
-										"position": [
-											0.4,
-											-0.2,
-											-0.1
-										],
-										"min_rider_count": 0,
-										"max_rider_count": 0,
-										"lock_rider_rotation": 0
-									},
-									{
-										"position": [
-											-0.4,
-											-0.2,
-											-0.1
-										],
-										"min_rider_count": 1,
-										"max_rider_count": 2,
-										"lock_rider_rotation": 0
-									}
-								]
-							},
-							"minecraft:conditional_bandwidth_optimization": {},
-							"minecraft:scaffolding_climber": {},
-							"minecraft:environment_sensor": {
-								"triggers": [
-									{
-										"event": "minecraft:trigger_raid",
-										"filters": {
-											"all_of": [
-												{
-													"test": "has_mob_effect",
-													"subject": "self",
-													"value": "bad_omen"
-												},
-												{
-													"test": "is_in_village",
-													"subject": "self",
-													"value": true
-												}
-											]
-										},
-										"target": "self"
-									},
-									{
-										"filters": {
-											"test": "has_equipment",
-											"subject": "self",
-											"operator": "equals",
-											"domain": "head",
-											"value": "lumidep:diving_helmet"
-										},
-										"event": "lumidep:helmet_on"
-									},
-									{
-										"filters": {
-											"test": "has_equipment",
-											"subject": "self",
-											"operator": "not",
-											"domain": "head",
-											"value": "lumidep:diving_helmet"
-										},
-										"event": "lumidep:helmet_off"
-									}
-								]
-							}
-						}
 					},
 					{
 						"key": "events",

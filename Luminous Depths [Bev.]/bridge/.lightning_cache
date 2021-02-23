@@ -153,12 +153,18 @@
 			"custom_components": []
 		},
 		"BP/entities/gorgebeast.json": {
-			"events": [],
+			"events": [
+				"lumidep:commit_die",
+				"lumidep:add_attack_state",
+				"lumidep:remove_attack_state"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"lumidep:gorgebeast"
 			],
-			"animation_references": [],
+			"animation_references": [
+				"gorgebeast_attack"
+			],
 			"families": [
 				"gorgebeast",
 				"leviathen"
@@ -167,12 +173,18 @@
 			"custom_components": []
 		},
 		"BP/entities/krepler.json": {
-			"events": [],
+			"events": [
+				"lumidep:add_attack_state",
+				"lumidep:remove_attack_state",
+				"minecraft:entity_spawned"
+			],
 			"bridge_core_tags": [],
 			"identifiers": [
 				"lumidep:krepler"
 			],
-			"animation_references": [],
+			"animation_references": [
+				"krepler_attack"
+			],
 			"families": [
 				"krepler",
 				"monster"
@@ -215,6 +227,18 @@
 		"BP/items/cooked_krepler_leg.json": {
 			"identifiers": [
 				"lumidep:cooked_krepler_leg"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bucket_of_isopod.json": {
+			"identifiers": [
+				"lumidep:bucket_of_isopod"
+			],
+			"custom_commands": []
+		},
+		"BP/items/bucket_of_anglerfish.json": {
+			"identifiers": [
+				"lumidep:bucket_of_anglerfish"
 			],
 			"custom_commands": []
 		}
@@ -342,29 +366,6 @@
 				"default"
 			]
 		},
-		"RP/entity/gorgebeast.json": {
-			"identifiers": [
-				"lumidep:gorgebeast"
-			],
-			"particle_references": [],
-			"animation_references": [
-				"idle",
-				"attack"
-			],
-			"sound_references": [],
-			"texture_references": [
-				"default"
-			],
-			"material_references": [
-				"default"
-			],
-			"geometry_references": [
-				"default"
-			],
-			"geometry_identifiers": [
-				"default"
-			]
-		},
 		"RP/entity/goblin_shark.entity.json": {
 			"identifiers": [
 				"lumidep:goblin_shark"
@@ -418,6 +419,30 @@
 			"animation_references": [],
 			"sound_references": [],
 			"texture_references": [
+				"default",
+				"volcanic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/gorgebeast.entity.json": {
+			"identifiers": [
+				"lumidep:gorgebeast"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"idle",
+				"attack"
+			],
+			"sound_references": [],
+			"texture_references": [
 				"default"
 			],
 			"material_references": [
@@ -437,9 +462,14 @@
 				"controller.render.turtle"
 			]
 		},
-		"RP/render_controllers/goblin_shark.json": {
+		"RP/render_controllers/goblin_shark.render_controllers.json": {
 			"ids": [
 				"controller.render.goblin_shark"
+			]
+		},
+		"RP/render_controllers/krepler.render_controllers.json": {
+			"ids": [
+				"controller.render.krepler"
 			]
 		}
 	},
@@ -493,6 +523,69 @@
 			"recipe_tags": [],
 			"custom_commands": [],
 			"custom_components": []
+		},
+		"BP/blocks/abyssal_bricks.json": {
+			"identifiers": [
+				"lumidep:abyssal_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/carved_abyssal_bricks.json": {
+			"identifiers": [
+				"lumidep:carved_abyssal_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/cracked_abyssal_bricks.json": {
+			"identifiers": [
+				"lumidep:cracked_abyssal_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/mossy_abyssal_bricks.json": {
+			"identifiers": [
+				"lumidep:mossy_abyssal_bricks"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"function": {
+		"16a40736_9ae2_40ab_b2b2_f9f0c5e1e7a2": {},
+		"d9b33aae_0f64_4e9e_a124_f8da5f3d533c": {},
+		"bb825b19_668a_41ff_a570_abe781562527": {},
+		"8a150f52_a081_4a36_8c8d_dd8baa337e15": {},
+		"BP/functions/getBlock/AbyssalStone.mcfunction": {
+			"custom_commands": []
+		},
+		"616e3362_8820_4a8d_a22b_13280ab07848": {},
+		"47c0e543_ba9d_49cf_b1c0_6fe02aeef35d": {},
+		"4d0205a9_715e_470f_8144_0c79097a89ce": {},
+		"159f2f37_3082_4951_9d75_e94c9b91d94c": {}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/krepler_attack.json": {
+			"ids": [
+				"controller.animation.krepler.krepler_attack"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/gorgebeast_attack.json": {
+			"ids": [
+				"controller.animation.gorgebeast.gorgebeast_attack"
+			],
+			"custom_commands": []
 		}
 	}
 }

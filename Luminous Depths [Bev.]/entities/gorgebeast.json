@@ -1,4 +1,4 @@
-//bridge-file-version: #11
+//bridge-file-version: #13
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -27,9 +27,9 @@
 					"seats": [
 						{
 							"position": [
-								-1,
+								1,
 								0.3,
-								-4.2
+								4.2
 							]
 						}
 					],
@@ -222,10 +222,10 @@
 		},
 		"events": {
 			"lumidep:commit_die": {
-				"damage": {
-					"type": "block_explosion",
-					"amount": 100,
-					"target": "self"
+				"run_command": {
+					"command": [
+						"kill @s"
+					]
 				}
 			},
 			"lumidep:add_attack_state": {

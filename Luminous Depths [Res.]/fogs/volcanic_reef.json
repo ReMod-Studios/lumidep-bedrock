@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #3
 {
 	"format_version": "1.16.100",
 	"minecraft:fog_settings": {
@@ -14,8 +14,8 @@
 			},
 			"water": {
 				"fog_start": 0,
-				"fog_end": 15,
-				"fog_color": "#1A0000",
+				"fog_end": 60,
+				"fog_color": "#121622",
 				"render_distance_type": "fixed"
 			},
 			"weather": {

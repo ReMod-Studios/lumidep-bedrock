@@ -1,0 +1,28 @@
+//bridge-file-version: #8
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.krepling.sucky_wucky": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"default": "query.has_rider"
+						}
+					]
+				},
+				"owo_life_owo": {
+					"transitions": [
+						{
+							"default": "!query.has_rider"
+						}
+					],
+					"on_entry": [
+						"/execute @e[c=1,r=2] ^-0.05 ^0.4 ^-0.6 effect @s wither 1 1 true"
+					]
+				}
+			}
+		}
+	}
+}

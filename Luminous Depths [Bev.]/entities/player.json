@@ -1,4 +1,4 @@
-//bridge-file-version: #2
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -99,24 +99,6 @@
 						},
 						"cause": "lava",
 						"damage_per_tick": 4
-					},
-					{
-						"filters": {
-							"all_of": [
-								{
-									"test": "is_family",
-									"subject": "other",
-									"operator": "equals",
-									"value": "krepler"
-								},
-								{
-									"test": "is_riding",
-									"subject": "self",
-									"value": true
-								}
-							]
-						},
-						"damage_per_tick": 2
 					}
 				]
 			},
@@ -272,12 +254,29 @@
 				}
 			},
 			"lumidep:helmet_off": {
-				"remove": {},
-				"add": {
-					"component_groups": [
-						"lumidep:helmet_off"
-					]
-				}
+				"sequence": [
+					{
+						"remove": {
+							"component_groups": [
+								"lumidep:helmet_on"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [
+								"lumidep:helmet_off"
+							]
+						}
+					},
+					{
+						"remove": {
+							"component_groups": [
+								"lumidep:helmet_off"
+							]
+						}
+					}
+				]
 			}
 		}
 	}

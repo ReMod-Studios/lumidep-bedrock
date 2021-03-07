@@ -1,4 +1,4 @@
-//bridge-file-version: #26
+//bridge-file-version: #34
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -8,11 +8,15 @@
 			"is_summonable": true,
 			"is_experimental": false,
 			"animations": {
-				"krepler_attack": "controller.animation.krepler.krepler_attack"
+				"krepler_attack": "controller.animation.krepler.krepler_attack",
+				"krepler_suck": "controller.animation.krepler.suck_life",
+				"krepler_suck_2_electric_boogaloo": "controller.animation.krepler.suck_life_2_electric_boogaloo"
 			},
 			"scripts": {
 				"animate": [
-					"krepler_attack"
+					"krepler_attack",
+					"krepler_suck",
+					"krepler_suck_2_electric_boogaloo"
 				]
 			}
 		},
@@ -53,6 +57,27 @@
 			"lumidep:volcanic_variant": {
 				"minecraft:variant": {
 					"value": 1
+				}
+			},
+			"cf08b577_1d13_4cfe_bb8b_9f557a025f6f": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "regeneration",
+							"duration": 3,
+							"amplifier": 3,
+							"visible": false,
+							"ambient": false,
+							"display_on_screen_animation": false
+						}
+					]
+				}
+			},
+			"2a75e6e1_ce64_4a64_b2ed_1e4a2d1fe344": {
+				"minecraft:spell_effects": {
+					"remove_effects": [
+						"regeneration"
+					]
 				}
 			}
 		},
@@ -188,9 +213,62 @@
 				"priority": 3,
 				"speed_multiplier": 1,
 				"track_target": false
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+					{
+						"filters": {
+							"test": "has_tag",
+							"subject": "self",
+							"operator": "equals",
+							"value": "isRegeneratingHealth"
+						},
+						"event": "lumidep:suck_life"
+					},
+					{
+						"filters": {
+							"test": "has_tag",
+							"subject": "self",
+							"operator": "not",
+							"value": "isRegeneratingHealth"
+						},
+						"event": "lumidep:stop_sucking_life"
+					}
+				]
+			},
+			"minecraft:behavior.eat_block": {
+				"priority": 0,
+				"time_until_eat": 1.5,
+				"success_chance": "query.is_baby? 0.5 : 0.1",
+				"eat_and_replace_block_pairs": [
+					{
+						"eat_block": "minecraft:kelp",
+						"replace_block": "minecraft:air"
+					}
+				]
 			}
 		},
 		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"lumidep:default_variant"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"lumidep:volcanic_variant"
+							]
+						}
+					}
+				]
+			},
 			"lumidep:add_attack_state": {
 				"sequence": [
 					{
@@ -216,18 +294,49 @@
 					]
 				}
 			},
-			"minecraft:entity_spawned": {
-				"randomize": [
+			"lumidep:suck_life": {
+				"add": {
+					"component_groups": [
+						"cf08b577_1d13_4cfe_bb8b_9f557a025f6f"
+					]
+				}
+			},
+			"lumidep:stop_sucking_life": {
+				"remove": {},
+				"add": {
+					"component_groups": [
+						"2a75e6e1_ce64_4a64_b2ed_1e4a2d1fe344"
+					]
+				}
+			},
+			"lumidep:become_default": {
+				"sequence": [
 					{
-						"weight": 1,
+						"remove": {
+							"component_groups": [
+								"lumidep:volcanic_variant"
+							]
+						}
+					},
+					{
 						"add": {
+							"component_groups": [
+								"lumidep:default_variant"
+							]
+						}
+					}
+				]
+			},
+			"lumidep:become_volcanic": {
+				"sequence": [
+					{
+						"remove": {
 							"component_groups": [
 								"lumidep:default_variant"
 							]
 						}
 					},
 					{
-						"weight": 1,
 						"add": {
 							"component_groups": [
 								"lumidep:volcanic_variant"

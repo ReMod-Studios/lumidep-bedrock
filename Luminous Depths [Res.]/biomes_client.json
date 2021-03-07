@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
 	"biomes": {
 		"default": {
@@ -9,7 +9,12 @@
 		},
 		"deep_volcanic_reef": {
 			"water_surface_color": "#0B1A29",
-			"water_surface_transparency": 0,
+			"water_surface_transparency": 0.5,
+			"fog_identifier": "lumidep:volcanic_reef"
+		},
+		"deep_volcanic_reef_mutated": {
+			"water_surface_color": "#0B1A29",
+			"water_surface_transparency": 0.5,
 			"fog_identifier": "lumidep:volcanic_reef"
 		}
 	}

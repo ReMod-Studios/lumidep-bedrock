@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #3
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -12,9 +12,6 @@
 			"minecraft:hand_equipped": false,
 			"minecraft:stacked_by_data": true,
 			"minecraft:foil": false,
-			"minecraft:block_placer": {
-				"block": "minecraft:water"
-			},
 			"minecraft:entity_placer": {
 				"entity": "lumidep:anglerfish"
 			},
@@ -38,13 +35,12 @@
 			"on_use_on": {
 				"sequence": [
 					{
-						"decrement_stack": {}
-					},
-					{
 						"run_command": {
 							"command": [
-								"give @s bucket"
-							]
+								"replaceitem entity @s slot.weapon.mainhand 0 bucket 1 0",
+								"execute @e[type=lumidep:anglerfish,r=5] ^^^ setblock ~~~ water"
+							],
+							"target": "holder"
 						}
 					}
 				]

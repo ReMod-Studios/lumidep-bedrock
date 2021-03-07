@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #4
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -14,7 +14,7 @@
 				}
 			},
 			"minecraft:friction": 0.6,
-			"minecraft:destroy_time": 3,
+			"minecraft:destroy_time": 1,
 			"minecraft:flammable": {
 				"flame_odds": 0,
 				"burn_odds": 0

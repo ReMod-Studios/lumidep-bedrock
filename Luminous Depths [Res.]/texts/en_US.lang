@@ -1,4 +1,4 @@
-##bridge-file-version: #17
+##bridge-file-version: #19
 pack.name=Luminous Depths §1[Res.]
 pack.description=A Project that brings in a whole new level of depth to Minecraft's oceans, (pun intended), from creatures such as anglerfish to giant isopods, new blocks, and strange structures.
 
@@ -17,6 +17,7 @@ entity.lumidep:anglerfish.name=Anglerfish
 entity.lumidep:isopod.name=Isopod
 entity.lumidep:gorgebeast.name=Gorgebeast
 entity.lumidep:krepler.name=Krepler
+entity.lumidep:krepling.name=Krepling
 
 ## ENTITIES-EGGS
 item.spawn_egg.entity.lumidep:goblin_shark.name=Spawn Goblin shark
@@ -25,6 +26,7 @@ item.spawn_egg.entity.lumidep:anglerfish.name=Spawn Anglerfish
 item.spawn_egg.entity.lumidep:isopod.name=Spawn Isopod
 item.spawn_egg.entity.lumidep:gorgebeast.name=Spawn Gorgebeast
 item.spawn_egg.entity.lumidep:krepler.name=Spawn Krepler
+item.spawn_egg.entity.lumidep:krepling.name=Spawn Krepling
 
 ## MISC
 action.hint.exit.lumidep:krepler=Sneak to Escape the Krepler!

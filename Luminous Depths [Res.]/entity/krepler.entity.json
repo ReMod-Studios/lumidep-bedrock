@@ -1,4 +1,4 @@
-//bridge-file-version: #3
+//bridge-file-version: #5
 {
 	"format_version": "1.10.0",
 	"minecraft:client_entity": {
@@ -12,7 +12,21 @@
 				"volcanic": "textures/entity/krepler/krepler_volcanic"
 			},
 			"geometry": {
-				"default": "geometry.krepler_adult"
+				"default": "geometry.krepler"
+			},
+			"animations": {
+				"move": "animation.krepler.walk",
+				"attack": "animation.krepler.attack"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"move": "query.modified_move_speed"
+					},
+					{
+						"attack": "v.attack_time"
+					}
+				]
 			},
 			"render_controllers": [
 				"controller.render.krepler"

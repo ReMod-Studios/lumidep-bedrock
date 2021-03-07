@@ -1,0 +1,26 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "lumidep:krepling",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/krepling/krepling",
+				"volcanic": "textures/entity/krepling/volcanic_krepling"
+			},
+			"geometry": {
+				"default": "geometry.krepling"
+			},
+			"render_controllers": [
+				"controller.render.krepler"
+			],
+			"spawn_egg": {
+				"base_color": "#6DE723",
+				"overlay_color": "#FFA77A"
+			}
+		}
+	}
+}

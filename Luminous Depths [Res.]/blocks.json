@@ -7,5 +7,32 @@
 	],
 	"lumidep:abyssal_stone": {
 		"sound": "stone"
+	},
+	"lumidep:abyssal_bricks": {
+		"sound": "stone"
+	},
+	"lumidep:carved_abyssal_bricks": {
+		"sound": "stone"
+	},
+	"lumidep:cracked_abyssal_bricks": {
+		"sound": "stone"
+	},
+	"lumidep:mossy_abyssal_bricks": {
+		"sound": "stone"
+	},
+	"lumidep:black_sand": {
+		"sound": "sand"
+	},
+	"lumidep:black_sandstone": {
+		"sound": "stone"
+	},
+	"lumidep:cut_black_sandstone": {
+		"sound": "stone"
+	},
+	"lumidep:chiseled_black_sandstone": {
+		"sound": "stone"
+	},
+	"lumidep:lumerock": {
+		"sound": "glass"
 	}
 }

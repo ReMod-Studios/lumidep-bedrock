@@ -7,7 +7,13 @@ tile.lumidep:abyssal_bricks.name=Abyssal Bricks
 tile.lumidep:carved_abyssal_bricks.name=Carved Abyssal Bricks
 tile.lumidep:cracked_abyssal_bricks.name=Cracked Abyssal Bricks
 tile.lumidep:mossy_abyssal_bricks.name=Mossy Abyssal Bricks
+
 tile.lumidep:black_sand.name=Black Sand
+tile.lumidep:black_sandstone.name=Black Sandstone
+tile.lumidep:cut_black_sandstone.name=Cut Black Sandstone
+tile.lumidep:chiseled_black_sandstone.name=Chiseled Black Sandstone
+
+tile.lumidep:lumerock.name=Lumerock
 
 ## ENTITIES
 entity.lumidep:goblin_shark.name=Goblin Shark

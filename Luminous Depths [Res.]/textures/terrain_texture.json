@@ -10,27 +10,42 @@
 				"textures/blocks/black_sand"
 			]
 		},
-		"abyss_stone": {
+		"black_sandstone": {
+			"textures": [
+				"textures/blocks/black_sandstone"
+			]
+		},
+		"cut_black_sandstone": {
+			"textures": [
+				"textures/blocks/cut_black_sandstone"
+			]
+		},
+		"chiseled_black_sandstone": {
+			"textures": [
+				"textures/blocks/chiseled_black_sandstone"
+			]
+		},
+		"abyssal_stone": {
 			"textures": [
 				"textures/blocks/abyssal_stone"
 			]
 		},
-		"abyss_bricks": {
+		"abyssal_bricks": {
 			"textures": [
 				"textures/blocks/abyssal_brick"
 			]
 		},
-		"abyss_bricks_carved": {
+		"abyssal_bricks_carved": {
 			"textures": [
 				"textures/blocks/abyssal_brick_carved"
 			]
 		},
-		"abyss_bricks_cracked": {
+		"abyssal_bricks_cracked": {
 			"textures": [
 				"textures/blocks/abyssal_brick_cracked"
 			]
 		},
-		"abyss_bricks_mossy": {
+		"abyssal_bricks_mossy": {
 			"textures": [
 				"textures/blocks/abyssal_brick_mossy"
 			]

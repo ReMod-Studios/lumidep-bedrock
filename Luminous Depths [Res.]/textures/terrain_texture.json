@@ -25,6 +25,8 @@
 				"textures/blocks/chiseled_black_sandstone"
 			]
 		},
+
+
 		"abyssal_stone": {
 			"textures": [
 				"textures/blocks/abyssal_stone"
@@ -48,6 +50,32 @@
 		"abyssal_bricks_mossy": {
 			"textures": [
 				"textures/blocks/abyssal_brick_mossy"
+			]
+		},
+
+		"brackwood_log": {
+			"textures": [
+				"textures/blocks/brackwood_log"
+			]
+		},
+		"brackwood_log_up": {
+			"textures": [
+				"textures/blocks/brackwood_log_up"
+			]
+		},
+		"stripped_brackwood_log": {
+			"textures": [
+				"textures/blocks/stripped_brackwood_log"
+			]
+		},
+		"stripped_brackwood_log_up": {
+			"textures": [
+				"textures/blocks/stripped_brackwood_log_up"
+			]
+		},
+		"brackwood_planks": {
+			"textures": [
+				"textures/blocks/brackwood_planks"
 			]
 		}
 	}

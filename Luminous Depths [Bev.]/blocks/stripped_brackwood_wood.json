@@ -1,0 +1,61 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "lumidep:stripped_brackwood_wood"
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "stripped_brackwood_wood",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:friction": 0.6,
+			"minecraft:destroy_time": 3,
+			"minecraft:flammable": {
+				"flame_odds": 0.5,
+				"burn_odds": 0.5
+			}
+		},
+		"permutations": [
+			{
+				"condition":"q.get_equipped_item_name(0) == 'wooden_axe'",
+				"components": {
+					"minecraft:destroy_time": 1.5
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'stone_axe'",
+				"components": {
+					"minecraft:destroy_time": 0.75
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'iron_axe'",
+				"components": {
+					"minecraft:destroy_time": 0.5
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'diamond_axe'",
+				"components": {
+					"minecraft:destroy_time": 0.4
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'netherite_axe'",
+				"components": {
+					"minecraft:destroy_time": 0.35
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'gold_axe'",
+				"components": {
+					"minecraft:destroy_time": 0.25
+				}
+			}
+		]
+	}
+}

@@ -2,7 +2,7 @@
 	"format_version": "1.13.0",
 	"minecraft:biome": {
 		"description": {
-			"identifier": "deep_volcanic_reef_mutated"
+			"identifier": "volcanic_reef"
 		},
 		"components": {
 			"minecraft:climate": {
@@ -17,7 +17,7 @@
 				"noise_type": "deep_ocean"
 			},
 			"minecraft:surface_parameters": {
-				"sea_floor_depth": 30,
+				"sea_floor_depth": 10,
 				"sea_floor_material": "lumidep:black_sand",
 				"foundation_material": "lumidep:abyssal_stone",
 				"mid_material": "minecraft:water",

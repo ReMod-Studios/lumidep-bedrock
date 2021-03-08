@@ -12,8 +12,17 @@ tile.lumidep:black_sand.name=Black Sand
 tile.lumidep:black_sandstone.name=Black Sandstone
 tile.lumidep:cut_black_sandstone.name=Cut Black Sandstone
 tile.lumidep:chiseled_black_sandstone.name=Chiseled Black Sandstone
+tile.lumidep:tungsten_deposit.name=Tungsten Deposit
+tile.lumidep:tungsten_block.name=Block of Tungsten
 
 tile.lumidep:lumerock.name=Lumerock
+tile.lumidep:coralline_algae.name=Coralline Algae
+
+tile.lumidep:brackwood_log.name=Brackwood Log
+tile.lumidep:stripped_brackwood_log.name=Stripped Brackwood Log
+tile.lumidep:brackwood_wood.name=Brackwood Wood
+tile.lumidep:stripped_brackwood_wood.name=Stripped Brackwood Wood
+tile.lumidep:brackwood_planks.name=Brackwood Planks
 
 ## ENTITIES
 entity.lumidep:goblin_shark.name=Goblin Shark
@@ -23,6 +32,7 @@ entity.lumidep:isopod.name=Isopod
 entity.lumidep:gorgebeast.name=Gorgebeast
 entity.lumidep:krepler.name=Krepler
 entity.lumidep:krepling.name=Krepling
+entity.lumidep:rogue_guardian.name=Rogue Guardian
 
 ## ENTITIES-EGGS
 item.spawn_egg.entity.lumidep:goblin_shark.name=Spawn Goblin shark
@@ -32,6 +42,7 @@ item.spawn_egg.entity.lumidep:isopod.name=Spawn Isopod
 item.spawn_egg.entity.lumidep:gorgebeast.name=Spawn Gorgebeast
 item.spawn_egg.entity.lumidep:krepler.name=Spawn Krepler
 item.spawn_egg.entity.lumidep:krepling.name=Spawn Krepling
+item.spawn_egg.entity.lumidep:rogue_guardian.name=Spawn Rogue Guardian
 
 ## MISC
 action.hint.exit.lumidep:krepler=Sneak to Escape the Krepler!

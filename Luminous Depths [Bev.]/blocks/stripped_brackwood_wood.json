@@ -8,7 +8,7 @@
 			"minecraft:unit_cube": {},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "stripped_brackwood_wood",
+					"texture": "stripped_brackwood_log",
 					"render_method": "opaque"
 				}
 			},

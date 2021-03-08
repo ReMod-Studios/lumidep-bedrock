@@ -34,5 +34,24 @@
 	},
 	"lumidep:lumerock": {
 		"sound": "glass"
+	},
+	"lumidep:coralline_algae": {
+		"sound": "grass"
+	},
+	"lumidep:brackwood_log": {
+		"sound": "log",
+		"textures": {
+			"up": "brackwood_log_up",
+			"side": "brackwood_log",
+			"down": "brackwood_log_up"
+		}
+	},
+	"lumidep:stripped_brackwood_log": {
+		"sound": "log",
+		"textures": {
+			"up": "stripped_brackwood_log_up",
+			"side": "stripped_brackwood_log",
+			"down": "stripped_brackwood_log_up"
+		}
 	}
 }

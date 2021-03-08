@@ -1,0 +1,94 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+            "identifier": "lumidep:abstain_lump",
+            "properties": {
+                "lumidep:is_active": ["true", "false"]
+            }
+		},
+		"components": {
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "abstain_lump",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:friction": 0.6,
+			"minecraft:destroy_time": 25,
+			"minecraft:flammable": {
+				"flame_odds": 0,
+				"burn_odds": 0
+            },
+            "minecraft:interact": {
+                "condition": "q.get_equipped_item_name(0) == 'lapis_lazuli'",
+                "event": "lumidep:activate"
+            }
+        },
+        "events": {
+            "lumidep:activate": {
+                "set_block_property": {
+                    "lumidep:is_active": true
+                }
+            },
+            "lumidep:deactivate": {
+                "set_block_property": {
+                    "lumidep:is_active": false
+                }
+            },
+
+            "lumidep:action": {
+                "run_command": [
+                    "function BlockFunc/AbstainLump"
+                ]
+            }
+        },
+		"permutations": [
+			{
+				"condition":"q.get_equipped_item_name(0) == 'wooden_pickaxe'",
+				"components": {
+					"minecraft:destroy_time": 12.5
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'stone_pickaxe'",
+				"components": {
+					"minecraft:destroy_time": 1.9
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'iron_pickaxe'",
+				"components": {
+					"minecraft:destroy_time": 1.25
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'diamond_pickaxe'",
+				"components": {
+					"minecraft:destroy_time": 0.95
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'netherite_pickaxe'",
+				"components": {
+					"minecraft:destroy_time": 0.85
+				}
+			},
+			{
+				"condition":"q.get_equipped_item_name(0) == 'gold_pickaxe'",
+				"components": {
+					"minecraft:destroy_time": 2.1
+				}
+            },
+            {
+                "condition": "q.block_property('lumidep:is_active') == true",
+                "components": {
+                    "minecraft:ticking": {
+                        "event": "lumidep:action"
+                    }
+                }
+            }
+		]
+	}
+}

@@ -6,20 +6,6 @@
 		},
 		"components": {
 			"minecraft:unit_cube": {},
-			"minecraft:material_instances": {
-				"side": {
-					"texture": "brackwood_log",
-					"render_method": "opaque"
-                },
-                "up": {
-                    "texture": "brackwood_log_up",
-                    "render_method": "opaque"
-                },
-                "down": {
-                    "texture": "brackwood_log_up",
-                    "render_method": "opaque"
-                }
-			},
 			"minecraft:friction": 0.6,
 			"minecraft:destroy_time": 3,
 			"minecraft:flammable": {

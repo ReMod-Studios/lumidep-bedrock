@@ -25,6 +25,16 @@
 				"textures/blocks/chiseled_black_sandstone"
 			]
 		},
+		"tungsten_deposit": {
+			"textures": [
+				"textures/blocks/tungsten_deposit"
+			]
+		},
+		"tungsten_block": {
+			"textures": [
+				"textures/blocks/tungsten_block"
+			]
+		},
 
 
 		"abyssal_stone": {
@@ -53,6 +63,11 @@
 			]
 		},
 
+		"coralline_algae": {
+			"textures": [
+				"textures/blocks/coralline_algae"
+			]
+		},
 		"brackwood_log": {
 			"textures": [
 				"textures/blocks/brackwood_log"

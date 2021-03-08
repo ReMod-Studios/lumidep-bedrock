@@ -8,6 +8,19 @@
 				"textures/items/diving_helmet"
 			]
 		},
+		"bucket_of_isopod": {
+			"textures": [
+				"textures/items/bucket_of_isopod"
+			]
+		},
+		"bucket_of_anglerfish": {
+			"textures": [
+				"textures/items/bucket_of_anglerfish"
+			]
+		},
+
+
+
 		"esca": {
 			"textures": [
 				"textures/items/esca"
@@ -33,14 +46,17 @@
 				"textures/items/krepler_leg_cooked"
 			]
 		},
-		"bucket_of_isopod": {
+
+
+
+		"tungsten_ingot": {
 			"textures": [
-				"textures/items/bucket_of_isopod"
+				"textures/items/tungsten_ingot"
 			]
 		},
-		"bucket_of_anglerfish": {
+		"tungsten_nugget": {
 			"textures": [
-				"textures/items/bucket_of_anglerfish"
+				"textures/items/tungsten_nugget"
 			]
 		}
 	}

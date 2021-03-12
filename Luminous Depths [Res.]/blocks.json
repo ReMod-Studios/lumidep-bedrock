@@ -6,37 +6,60 @@
 		0
 	],
 	"lumidep:abyssal_stone": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": "abyssal_stone"
 	},
 	"lumidep:abyssal_bricks": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": "abyssal_bricks"
 	},
 	"lumidep:carved_abyssal_bricks": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": "abyssal_bricks_carved"
 	},
 	"lumidep:cracked_abyssal_bricks": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": "abyssal_bricks_cracked"
 	},
 	"lumidep:mossy_abyssal_bricks": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": "abyssal_bricks_mossy"
 	},
 	"lumidep:black_sand": {
-		"sound": "sand"
+		"sound": "sand",
+		"textures": "black_sand"
 	},
 	"lumidep:black_sandstone": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": {
+			"down": "black_sandstone_down",
+			"side": "black_sandstone",
+			"up": "black_sandstone_up"
+		}
 	},
 	"lumidep:cut_black_sandstone": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": {
+			"down": "cut_black_sandstone_down",
+			"side": "cut_black_sandstone",
+			"up": "cut_black_sandstone_up"
+		}
 	},
 	"lumidep:chiseled_black_sandstone": {
-		"sound": "stone"
+		"sound": "stone",
+		"textures": {
+			"down": "chiseled_black_sandstone_down",
+			"side": "chiseled_black_sandstone",
+			"up": "chiseled_black_sandstone_up"
+		}
 	},
 	"lumidep:lumerock": {
-		"sound": "glass"
+		"sound": "glass",
+		"textures": "lumerock"
 	},
 	"lumidep:coralline_algae": {
-		"sound": "grass"
+		"sound": "grass",
+		"textures": "coralline_algae"
 	},
 	"lumidep:brackwood_log": {
 		"sound": "log",
@@ -53,5 +76,13 @@
 			"side": "stripped_brackwood_log",
 			"down": "stripped_brackwood_log_up"
 		}
+	},
+	"lumidep:brackwood_wood": {
+		"sound": "log",
+		"textures": "brackwood_log"
+	},
+	"lumidep:stripped_brackwood_wood": {
+		"sound": "log",
+		"textures": "stripped_brackwood_log"
 	}
 }

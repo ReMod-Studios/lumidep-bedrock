@@ -36,6 +36,34 @@
 			]
 		},
 
+		"gorge_block_base": {
+			"textures": [
+				"textures/blocks/gorge_block_base"
+			]
+		},
+		
+		"gorge_mass": {
+			"textures": [
+				"textures/blocks/gorge_mass"
+			]
+		},
+		"gorge_mass_activated": {
+			"textures": [
+				"textures/blocks/gorge_mass_activated"
+			]
+		},
+		"abstain_lump": {
+			"textures": [
+				"textures/blocks/abstain_lump"
+			]
+		},
+		"abstain_lump_activated": {
+			"textures": [
+				"textures/blocks/abstain_lump_activated"
+			]
+		},
+
+
 
 		"abyssal_stone": {
 			"textures": [

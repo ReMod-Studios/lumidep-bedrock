@@ -1,4 +1,4 @@
-# LuminousDepths-Bedrock
+# Luminous Depths: Bedrock Edition
 A Project that brings in a whole new level of depth to Minecraft's oceans (pun intended).
 From creatures such as the scary anglerfish to the curious isopods, new blocks, and strange structures.
 Even new biomes that go deeper into the depths than ever before. Thermal vents full with magma, brine lakes with a new material!
@@ -35,8 +35,6 @@ If you want to suggest a features or change in one. Open an Issue with a clear i
 You can find us on Discord.
 
 LePichu#5243
+Sambhav Arora#6290
 
-Snufie#6356
-
-##### This repository is for Minecraft Bedrock
-(Bedrock Repository)
+##### This repository is for Minecraft: Bedrock Edition.

@@ -3,61 +3,6 @@
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
 	"texture_data": {
-		"diving_helmet": {
-			"textures": [
-				"textures/items/diving_helmet"
-			]
-		},
-		"bucket_of_isopod": {
-			"textures": [
-				"textures/items/bucket_of_isopod"
-			]
-		},
-		"bucket_of_anglerfish": {
-			"textures": [
-				"textures/items/bucket_of_anglerfish"
-			]
-		},
-
-
-
-		"esca": {
-			"textures": [
-				"textures/items/esca"
-			]
-		},
-		"carapace": {
-			"textures": [
-				"textures/items/carapace"
-			]
-		},
-		"gorge_cords": {
-			"textures": [
-				"textures/items/cords_gorge"
-			]
-		},
-		"krepler_leg_raw": {
-			"textures": [
-				"textures/items/krepler_leg_raw"
-			]
-		},
-		"krepler_leg_cooked": {
-			"textures": [
-				"textures/items/krepler_leg_cooked"
-			]
-		},
-
-
-
-		"tungsten_ingot": {
-			"textures": [
-				"textures/items/tungsten_ingot"
-			]
-		},
-		"tungsten_nugget": {
-			"textures": [
-				"textures/items/tungsten_nugget"
-			]
-		}
+		
 	}
 }
